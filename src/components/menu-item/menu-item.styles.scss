@@ -1,0 +1,36 @@
+.menu-item {
+  min-width: 60%;
+  height: 80px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border: 1px solid black;
+  margin: 0 7.5px 15px;
+  background-position: center;
+  background-size: cover;
+  
+
+  &:first-child {
+    margin-right: 7.5px;
+  }
+
+  &:last-child {
+    margin-left: 7.5px;
+  }
+
+  .content {
+    height: 80px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+      font-weight: bold;
+      margin-bottom: 6px;
+      font-size: 18px;
+      color: #fdf9f9;
+    }
+  }
+}
