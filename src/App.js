@@ -5,13 +5,9 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css';
 
 import HomePage from './pages/homepage.component';
+import BeachesPage from './pages/beaches.component';
 
-const BeachesPage = () => (
-  <div>
-    <h1>BEACHES</h1>
-  </div>
 
-);
 
 function App() {
   return (
