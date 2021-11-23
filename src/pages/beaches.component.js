@@ -4,7 +4,7 @@ import DirectoryBeaches from '../components/directory/directory.beaches.componen
 
 import './beaches.styles.scss';
 
-const HomePage = () => (
+const BeachesPage = () => (
   <div className='homepage'>
     <h1> BEACHES </h1>
     <DirectoryBeaches />
@@ -12,4 +12,4 @@ const HomePage = () => (
 );
 
 
-export default HomePage;
+export default BeachesPage;
