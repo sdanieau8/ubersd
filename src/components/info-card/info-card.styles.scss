@@ -5,10 +5,12 @@
   display: flex;
   align-items: center;
   justify-content: left;
-  border: 1px solid black;
+  border: 1px solid gray;
   margin: 0 7.5px 15px;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
   
 
   &:first-child {
