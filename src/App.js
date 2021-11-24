@@ -8,7 +8,6 @@ import HomePage from './pages/homepage.component';
 import BeachesPage from './pages/beaches.component';
 
 
-
 function App() {
   return (
     <div>
