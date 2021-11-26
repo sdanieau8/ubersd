@@ -12,37 +12,37 @@ class DirectoryHome extends React.Component {
       sections: [
         {
           title: 'BEACHES',
-          imageUrl: 'https://i.ibb.co/MhGrm06/lajolla.jpg',
+          imageUrl: 'https://i.ibb.co/JmMGSKD/beach.jpg',
           id: 1,
           linkUrl: 'beaches'
         },
         {
           title: 'HISTORIC',
-          imageUrl: 'https://i.ibb.co/cD3KfWy/balboapark.jpg',
+          imageUrl: 'https://i.ibb.co/qnvMk5L/historic.jpg',
           id: 2,
           linkUrl: 'historic'
         },
         {
           title: 'NIGHT LIFE',
-          imageUrl: 'https://i.ibb.co/wwKJvM2/gaslamp.jpg',
+          imageUrl: 'https://i.ibb.co/2ZbJfKx/nightlife.jpg',
           id: 3,
           linkUrl: 'nightlife'
         },
         {
           title: 'FAMILY',
-          imageUrl: 'https://i.ibb.co/BtTtM3R/belmontpark.jpg',
+          imageUrl: 'https://i.ibb.co/R0hksNn/zoo.jpg',
           id: 4,
           linkUrl: 'family'
         },
         {
           title: 'RESTAURANTS',
-          imageUrl: 'https://i.ibb.co/n7N1SQW/restaurant.jpg',
+          imageUrl: 'https://i.ibb.co/GxXwH9J/restaurants.jpg',
           id: 5,
           linkUrl: 'restaurants'
         },
         {
           title: 'BREWERIES',
-          imageUrl: 'https://i.ibb.co/n7N1SQW/restaurant.jpg',
+          imageUrl: 'https://i.ibb.co/rZ2vgHK/breweries.jpg',
           id: 6,
           linkUrl: 'breweries'
         }
