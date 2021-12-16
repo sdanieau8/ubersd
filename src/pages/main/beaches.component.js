@@ -1,7 +1,7 @@
 import React from 'react';
 
-import DirectoryBeaches from '../components/directory/directory.beaches.component';
-import Homebutton from '../components/homebutton/homebutton.component';
+import DirectoryBeaches from '../../components/directory/directory.beaches.component';
+import Homebutton from '../../components/homebutton/homebutton.component';
 
 import './beaches.styles.scss';
 
