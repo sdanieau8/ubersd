@@ -1,4 +1,4 @@
-const PB_DATA = [
+const LAJOLLASHORES_DATA = [
   {
     id: 1,
     title: 'Restaurants',
@@ -192,6 +192,6 @@ const PB_DATA = [
 ];
 
 
-export default PB_DATA;
+export default LAJOLLASHORES_DATA;
 
 

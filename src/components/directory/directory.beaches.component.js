@@ -2,7 +2,7 @@ import React from 'react';
 
 import MenuItem from '../menu-item/menu-item.component';
 
-import './directory.beaches.styles.scss';
+import './directory.homepage.styles.scss';
 
 class DirectoryBeaches extends React.Component {
   constructor() {
@@ -58,7 +58,7 @@ class DirectoryBeaches extends React.Component {
 
   render() {
     return (
-      <div className='directory-beaches'>
+      <div className='directory-homepage'>
          {this.state.sections.map(({ title, imageUrl, id, linkUrl }) => (
           <MenuItem key={id} title={title} imageUrl={imageUrl} linkUrl={linkUrl} />
         ))}

@@ -1,4 +1,4 @@
-const PB_DATA = [
+const LANDMARKS_DATA = [
   {
     id: 1,
     title: 'Restaurants',
@@ -154,44 +154,10 @@ const PB_DATA = [
         linkUrl: 'https://www.belmontpark.com/'
       }
     ]
-  },
-  {
-    id: 5,
-    title: 'Breweries',
-    items: [
-      {
-        id: 51,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 52,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 53,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 54,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      }
-    ]
   }
 ];
 
 
-export default PB_DATA;
+export default LANDMARKS_DATA;
 
 
