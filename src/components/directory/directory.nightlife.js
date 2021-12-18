@@ -4,35 +4,29 @@ import MenuItem from '../menu-item/menu-item.component';
 
 import './directory.homepage.styles.scss';
 
-class DirectoryHistoric extends React.Component {
+class DirectoryNightLife extends React.Component {
   constructor() {
     super();
 
     this.state = {
       sections: [
         {
-          title: 'LANDMARKS',
-          imageUrl: 'https://i.ibb.co/pwZxywX/landmarks.jpg',
+          title: 'BARS',
+          imageUrl: 'https://i.ibb.co/KVDrH1w/bars.jpg',
           id: 10,
-          linkUrl: 'landmarks'
+          linkUrl: 'bars'
         },
         {
-          title: 'PARKS',
-          imageUrl: 'https://i.ibb.co/KN77B7y/parks.jpg',
+          title: 'CLUBS',
+          imageUrl: 'https://i.ibb.co/HnrbbFF/clubs.jpg',
           id: 11,
-          linkUrl: 'parks'
+          linkUrl: 'clubs'
         },
         {
-          title: 'MUSEUMS',
-          imageUrl: 'https://i.ibb.co/64QKJBg/museum.jpg',
+          title: 'EVENTS',
+          imageUrl: 'https://i.ibb.co/9NnBW9v/events.jpg',
           id: 12,
-          linkUrl: 'museums'
-        },
-        {
-          title: 'ART & CULTURE',
-          imageUrl: 'https://i.ibb.co/LRrmHMx/artculture.jpg',
-          id: 13,
-          linkUrl: 'artculture'
+          linkUrl: 'events'
         }
       ]
     };
@@ -50,7 +44,7 @@ class DirectoryHistoric extends React.Component {
 }
 
 
-export default DirectoryHistoric;
+export default DirectoryNightLife;
 
 
 
