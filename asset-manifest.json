@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ubersd/static/css/main.15c5d409.chunk.css",
+    "main.js": "/ubersd/static/js/main.5e7671ed.chunk.js",
+    "main.js.map": "/ubersd/static/js/main.5e7671ed.chunk.js.map",
+    "runtime-main.js": "/ubersd/static/js/runtime-main.5b4c66af.js",
+    "runtime-main.js.map": "/ubersd/static/js/runtime-main.5b4c66af.js.map",
+    "static/js/2.46531b85.chunk.js": "/ubersd/static/js/2.46531b85.chunk.js",
+    "static/js/2.46531b85.chunk.js.map": "/ubersd/static/js/2.46531b85.chunk.js.map",
+    "index.html": "/ubersd/index.html",
+    "static/css/main.15c5d409.chunk.css.map": "/ubersd/static/css/main.15c5d409.chunk.css.map",
+    "static/js/2.46531b85.chunk.js.LICENSE.txt": "/ubersd/static/js/2.46531b85.chunk.js.LICENSE.txt",
+    "static/media/home.fccc0963.svg": "/ubersd/static/media/home.fccc0963.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b4c66af.js",
+    "static/js/2.46531b85.chunk.js",
+    "static/css/main.15c5d409.chunk.css",
+    "static/js/main.5e7671ed.chunk.js"
+  ]
+}
