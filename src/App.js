@@ -32,7 +32,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path='/' element={<HomePage />} />
+        <Route path='/ubersd' element={<HomePage />} />
         <Route path='/beaches' element={<BeachesPage />} />
           <Route path='beaches/pacificbeach' element={<PacificBeach />} />
           <Route path='beaches/missionbeach' element={<MissionBeach />} />
