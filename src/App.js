@@ -8,6 +8,7 @@ import HomePage from './pages/main/homepage.component';
 import BeachesPage from './pages/main/beaches.component';
 import HistoricPage from './pages/main/historic.components';
 import NightLifePage from './pages/main/nightlife.components';
+import FamilyPage from './pages/main/family.components';
 
 import PacificBeach from './pages/secondary/beaches/pb.component';
 import MissionBeach from './pages/secondary/beaches/mb.component';
@@ -26,6 +27,9 @@ import Bars from './pages/secondary/nightlife/bars.component';
 import Clubs from './pages/secondary/nightlife/clubs.component';
 import Events from './pages/secondary/nightlife/events.component';
 
+import RestaurantsPage from './pages/main/restaurants.components';
+
+import BreweriesPage from './pages/main/breweries.component';
 
 
 function App() {
@@ -50,6 +54,12 @@ function App() {
           <Route path='nightlife/bars' element={<Bars />} />
           <Route path='nightlife/clubs' element={<Clubs />} />
           <Route path='nightlife/events' element={<Events />} />
+        <Route path='/family' element={<FamilyPage />} />
+        
+        <Route path='/restaurants' element={<RestaurantsPage /> } />
+
+        <Route path='/breweries' element={<BreweriesPage /> } />
+
       </Routes>
     </div>
   );
