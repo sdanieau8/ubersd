@@ -1,15 +1,15 @@
 import React from "react";
 import Homebutton from "../../../components/homebutton/homebutton.component";
 import InfoCard from "../../../components/info-card/info-card.components";
-import PB_DATA from "../../../components/directory/data/pacificbeach.data";
+import ATTRACTION_DATA from "../../../components/directory/data/attractions.data";
 
-import './pb.styles.scss';
+import './f.styles.scss';
 
-class PacificBeach extends React.Component {
+class AttractionParks extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      collections: PB_DATA
+      collections: ATTRACTION_DATA
     };
   }
 
@@ -17,13 +17,14 @@ class PacificBeach extends React.Component {
     const { collections } = this.state;
     return (
     <div className='pbpage'>
-      <div className='photo' style= {{backgroundImage: `url("https://i.ibb.co/BKXr75h/pb.jpg")`}}>
-      <h1 className='pagename'> PACIFIC BEACH</h1>
+      <div className='photo' style= {{backgroundImage: `url("https://i.ibb.co/VM35ZZp/attractionpark.jpg")`}}>
+      <h1 className='pagename'> ATTRACTION PARKS </h1>
       </div>
       <Homebutton />
       <h2 className='beachinfo'>
-      Pacific Beach has boardwalk access, surf lessons, building sand castles, bike rentals and more! 
-      Restaurants and bars are within walking distance of the beach. 
+      Attraction Parks is great for walking the boardwalk, lounging on the beach,
+      bike rentals, surf lessons 
+      and amazing food. Extra text to fill up space.
       </h2>
       
       <div className='pb-list'>
@@ -37,4 +38,4 @@ class PacificBeach extends React.Component {
 }
 
 
-export default PacificBeach;
+export default AttractionParks;

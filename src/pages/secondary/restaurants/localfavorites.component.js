@@ -1,15 +1,15 @@
 import React from "react";
 import Homebutton from "../../../components/homebutton/homebutton.component";
 import InfoCard from "../../../components/info-card/info-card.components";
-import PB_DATA from "../../../components/directory/data/pacificbeach.data";
+import LOCALFAVORITES_DATA from "../../../components/directory/data/localfavorites.data";
 
-import './pb.styles.scss';
+import './r.styles.scss';
 
-class PacificBeach extends React.Component {
+class LocalFavorites extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      collections: PB_DATA
+      collections: LOCALFAVORITES_DATA
     };
   }
 
@@ -17,13 +17,14 @@ class PacificBeach extends React.Component {
     const { collections } = this.state;
     return (
     <div className='pbpage'>
-      <div className='photo' style= {{backgroundImage: `url("https://i.ibb.co/BKXr75h/pb.jpg")`}}>
-      <h1 className='pagename'> PACIFIC BEACH</h1>
+      <div className='photo' style= {{backgroundImage: `url("https://i.ibb.co/BtVzzMq/localfavorites.jpg")`}}>
+      <h1 className='pagename'> LOCAL FAVORITES </h1>
       </div>
       <Homebutton />
       <h2 className='beachinfo'>
-      Pacific Beach has boardwalk access, surf lessons, building sand castles, bike rentals and more! 
-      Restaurants and bars are within walking distance of the beach. 
+      Local Favorites is great for walking the boardwalk, lounging on the beach,
+      bike rentals, surf lessons 
+      and amazing food. Extra text to fill up space.
       </h2>
       
       <div className='pb-list'>
@@ -37,4 +38,4 @@ class PacificBeach extends React.Component {
 }
 
 
-export default PacificBeach;
+export default LocalFavorites;
