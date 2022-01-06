@@ -22,7 +22,7 @@ class PacificBeach extends React.Component {
       </div>
       <Homebutton />
       <h2 className='beachinfo'>
-      Pacific Beach has boardwalk access, surf lessons, building sand castles, bike rentals and more! 
+      Pacific Beach has boardwalk access, surf lessons, sand castles, bike rentals and more! 
       Restaurants and bars are within walking distance of the beach. 
       </h2>
       
