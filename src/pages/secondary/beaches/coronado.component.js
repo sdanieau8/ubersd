@@ -22,9 +22,7 @@ class Coronado extends React.Component {
       </div>
       <Homebutton />
       <h2 className='beachinfo'>
-      Coronado is great for walking the boardwalk, lounging on the beach,
-      bike rentals, surf lessons 
-      and amazing food. Extra text to fill up space.
+      Coronado is home to the Hotel Del, beautiful sandy beaches, and iconic views of the downtown skyline. 
       </h2>
       
       <div className='pb-list'>

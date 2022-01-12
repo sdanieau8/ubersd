@@ -1,6 +1,94 @@
 const PB_DATA = [
   {
     id: 1,
+    title: 'Beaches',
+    items: [
+      {
+        id: 51,
+        name: 'Law St',
+        type: 'Surf, Sunset, Yoga',
+        address: '4800 Ocean Blvd',
+        linkUrl: 'https://www.yelp.com/biz/law-street-san-diego?osq=law+st+beach'
+      },
+      {
+        id: 52,
+        name: 'Crystal Pier',
+        type: 'Free, Great Views, Fishing',
+        address: '4500 Ocean Blvd',
+        linkUrl: 'https://www.yelp.com/biz/crystal-pier-san-diego?osq=crystal+pier'
+      },
+      {
+        id: 53,
+        name: 'Diamond St',
+        type: 'Sand, Swim, Boardwalk access',
+        address: '610 Diamond St',
+        linkUrl: 'https://www.tripadvisor.com/ShowTopic-g60750-i41-k2664139-Diamond_Street_Pacific_Beach-San_Diego_California.html'
+      },
+      {
+        id: 54,
+        name: 'Grand Ave',
+        type: 'Sand, Surf, Swim, Boardwalk access',
+        address: '4507 Ocean Blvd',
+        linkUrl: 'https://pacificbeach.org'
+      }
+    ]
+  },
+  {
+    id: 2,
+    title: 'Rentals',
+    items: [
+      {
+        id: 51,
+        name: 'Ray\'s Rentals',
+        type: 'Bikes, Boards, Blades, Water Gear',
+        address: '4655 Mission Blvd',
+        linkUrl: 'http://www.rays-rentals.com'
+      },
+      {
+        id: 52,
+        name: 'PB Surf Shop',
+        type: 'Rentals & Gear, Lessons',
+        address: '4208 Oliver Ct',
+        linkUrl: 'http://www.pbsurfshop.com'
+      }
+    ]
+  },
+  {
+    id: 3,
+    title: 'Breweries',
+    items: [
+      {
+        id: 51,
+        name: 'PB Ale House',
+        type: 'Craft Beers & Full Menu',
+        address: '721 Grand Ave',
+        linkUrl: 'https://pbalehouse.com/'
+      },
+      {
+        id: 52,
+        name: 'SD Tap Room',
+        type: 'Craft Beer, Cider, Kombucha',
+        address: '1269 Garnet Ave',
+        linkUrl: 'https://sdtaproom.com/'
+      },
+      {
+        id: 53,
+        name: 'Iron Pig Alehouse',
+        type: 'Craft Beer & Texas BBQ',
+        address: '1520 Garnet Ave',
+        linkUrl: 'http://ironpigalehouse.com/'
+      },
+      {
+        id: 54,
+        name: 'Amplified Ale Works',
+        type: 'Brewpub & Mediterranean',
+        address: '4150 Mission Blvd Ste 208',
+        linkUrl: 'https://amplifiedales.com/'
+      }
+    ]
+  },
+  {
+    id: 4,
     title: 'Restaurants',
     items: [
       {
@@ -50,94 +138,46 @@ const PB_DATA = [
         type: 'Breakfast & Brunch',
         address: '4465 Mission Blvd',
         linkUrl: 'https://www.breakfastrepublic.com/'
-      }
-    ]
-  },
-  {
-    id: 2,
-    title: 'Beaches',
-    items: [
-      {
-        id: 51,
-        name: 'Law St',
-        type: 'Surf, Sunset, Yoga',
-        address: '4800 Ocean Blvd',
-        linkUrl: 'https://www.yelp.com/biz/law-street-san-diego?osq=law+st+beach'
       },
       {
-        id: 52,
-        name: 'Crystal Pier',
-        type: 'Free, Great Views, Fishing',
-        address: '4500 Ocean Blvd',
-        linkUrl: 'https://www.yelp.com/biz/crystal-pier-san-diego?osq=crystal+pier'
+        id: 57,
+        name: 'El Prez',
+        price: '$$ Casual',
+        type: 'Bar, Mexican',
+        address: '4190 Mission Blvd',
+        linkUrl: 'https://www.elprezpb.com/'
       },
       {
-        id: 53,
-        name: 'Diamond St',
-        type: 'Sand, Swim, Boardwalk access',
-        address: '610 Diamond St',
-        linkUrl: 'https://www.tripadvisor.com/ShowTopic-g60750-i41-k2664139-Diamond_Street_Pacific_Beach-San_Diego_California.html'
+        id: 58,
+        name: 'Baked Bear',
+        price: '$$ Casual',
+        type: 'Ice Cream, Desserts',
+        address: '4516 Mission Blvd',
+        linkUrl: 'https://www.thebakedbear.com/pacificbeach/'
       },
       {
-        id: 54,
-        name: 'Grand Ave',
-        type: 'Sand, Surf, Swim, Boardwalk access',
-        address: '4507 Ocean Blvd',
-        linkUrl: 'https://pacificbeach.org'
-      }
-    ]
-  },
-  {
-    id: 3,
-    title: 'Rentals',
-    items: [
-      {
-        id: 51,
-        name: 'Ray\'s Rentals',
-        type: 'Bike, Surf',
-        address: '4655 Mission Blvd',
-        linkUrl: 'http://www.rays-rentals.com'
+        id: 59,
+        name: 'The Fishery',
+        price: '$$ Casual',
+        type: 'Seafood',
+        address: '5040 Cass St',
+        linkUrl: 'https://www.thefishery.com/'
       },
       {
-        id: 52,
-        name: 'PB Surf Shop',
-        type: 'Rentals & Gear, Lessons',
-        address: '4208 Oliver Ct',
-        linkUrl: 'http://www.pbsurfshop.com'
-      }
-    ]
-  },
-  {
-    id: 4,
-    title: 'Breweries',
-    items: [
-      {
-        id: 51,
-        name: 'PB Ale House',
-        type: 'Craft Beers & Full Menu',
-        address: '721 Grand Ave',
-        linkUrl: 'https://pbalehouse.com/'
+        id: 60,
+        name: 'Ichiban PB',
+        price: '$ Casual',
+        type: 'Sushi, Japanese',
+        address: '1441 Garnet Ave',
+        linkUrl: 'https://www.yelp.com/biz/ichiban-pb-san-diego?osq=ichi+ban'
       },
       {
-        id: 52,
-        name: 'SD Tap Room',
-        type: 'Craft Beer, Cider, Kombucha',
-        address: '1269 Garnet Ave',
-        linkUrl: 'https://sdtaproom.com/'
-      },
-      {
-        id: 53,
-        name: 'Iron Pig Alehouse',
-        type: 'Craft Beer & Texas BBQ',
-        address: '1520 Garnet Ave',
-        linkUrl: 'http://ironpigalehouse.com/'
-      },
-      {
-        id: 54,
-        name: 'Amplified Ale Works',
-        type: 'Brewpub & Mediterranean',
-        address: '4150 Mission Blvd Ste 208',
-        linkUrl: 'https://amplifiedales.com/'
+        id: 61,
+        name: 'The Grass Skirt',
+        price: '$$ Casual',
+        type: 'Tiki Bar, Poke',
+        address: '910 Grand Ave',
+        linkUrl: 'https://www.thegrassskirt.com/'
       }
     ]
   }

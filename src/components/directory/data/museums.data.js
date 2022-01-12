@@ -1,157 +1,85 @@
 const MUSEUMS_DATA = [
   {
     id: 1,
-    title: 'Restaurants',
+    title: 'Museums',
     items: [
       {
         id: 51,
-        name: 'Cannonball',
-        price: '$$ Casual',
-        type: 'Seafood & Sushi',
-        address: '3105 Ocean Front Walk',
-        linkUrl: 'https://www.cannonballsd.com/'
+        name: 'Museum of Art',
+        price: '$20',
+        address: '1450 El Prado Balboa Park',
+        linkUrl: 'https://www.sdmart.org/'
       },
       {
         id: 52,
-        name: 'Draft',
-        price: '$$ Casual',
-        type: 'American & more',
-        address: '3105 Ocean Front Walk',
-        linkUrl: 'https://www.draftsandiego.com/'
+        name: 'Air & Space Museum',
+        price: '$22.50',
+        address: '2001 Pan American Plz Balboa Park',
+        linkUrl: 'https://sandiegoairandspace.org/'
       },
       {
         id: 53,
-        name: 'Olive Cafe',
-        price: '$ Casual',
-        type: 'Breakfast',
-        address: '805 Santa Clara Pl',
-        linkUrl: 'http://olivecafe.biz/'
+        name: 'Natural History Museum',
+        price: '$20',
+        address: '1788 El Prado',
+        linkUrl: 'https://www.sdnhm.org/'
       },
       {
         id: 54,
-        name: 'The Mission',
-        price: '$$ Casual',
-        type: 'Breakfast & Lunch',
-        address: '3795 Mission Blvd',
-        linkUrl: 'https://www.themissionsd.com/'
+        name: 'Contemporary Art',
+        price: '$10',
+        address: '1100 Kettner Blvd',
+        linkUrl: 'https://www.mcasd.org/'
       },
       {
         id: 55,
-        name: 'Miss B\'s',
-        price: '$$ Casual',
-        type: 'Brunch & Hawaiian',
-        address: '3704 Mission Blvd',
-        linkUrl: 'https://www.missbcoconutclub.com/'
+        name: 'Japanese Friendship Garden',
+        price: '$12',
+        address: '2215 Pan American Rd E',
+        linkUrl: 'https://www.niwa.org/'
       },
       {
         id: 56,
-        name: 'Guava Beach',
-        price: '$$ Casual',
-        type: 'Bar & Grill',
-        address: '3714 Mission Blvd',
-        linkUrl: 'https://guava-beach.com/'
-      }
-    ]
-  },
-  {
-    id: 2,
-    title: 'Beaches',
-    items: [
-      {
-        id: 51,
-        name: 'Law St',
-        type: 'Surf, Sunset, Yoga',
-        address: '4800 Ocean Blvd',
-        linkUrl: 'https://www.yelp.com/biz/law-street-san-diego?osq=law+st+beach'
+        name: 'USS Midway Museum',
+        price: '$26 (online)',
+        address: '910 N Harbor Dr',
+        linkUrl: 'https://www.midway.org/'
       },
       {
-        id: 52,
-        name: 'Crystal Pier',
-        type: 'Free, Great Views, Fishing',
-        address: '4500 Ocean Blvd',
-        linkUrl: 'https://www.yelp.com/biz/crystal-pier-san-diego?osq=crystal+pier'
+        id: 57,
+        name: 'Birch Aquarium',
+        price: '$25',
+        address: '2300 Expedition Way Scripps Institution of Oceanography',
+        linkUrl: 'https://aquarium.ucsd.edu/'
       },
       {
-        id: 53,
-        name: 'Diamond St',
-        type: 'Sand, Grass, Boardwalk',
-        address: '610 Diamond St',
-        linkUrl: 'https://www.tripadvisor.com/ShowTopic-g60750-i41-k2664139-Diamond_Street_Pacific_Beach-San_Diego_California.html'
+        id: 58,
+        name: 'Fleet Science Center',
+        price: '$22',
+        address: '1875 El Prado Balboa Park',
+        linkUrl: 'https://www.fleetscience.org/'
       },
       {
-        id: 54,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      }
-    ]
-  },
-  {
-    id: 3,
-    title: 'Family',
-    items: [
-      {
-        id: 51,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
+        id: 59,
+        name: 'Whaley House',
+        price: '$14',
+        type: 'Haunted House',
+        address: '2476 San Diego Ave',
+        linkUrl: 'https://www.whaleyhousesandiego.com/'
       },
       {
-        id: 52,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
+        id: 60,
+        name: 'Maritime Museum',
+        price: '$20',
+        address: '1492 N Harbor Dr',
+        linkUrl: 'https://sdmaritime.org/'
       },
       {
-        id: 53,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 54,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      }
-    ]
-  },
-  {
-    id: 4,
-    title: 'Rentals',
-    items: [
-      {
-        id: 51,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 52,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 53,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 54,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
+        id: 61,
+        name: 'Botanical Building',
+        price: 'Free',
+        address: '1549 El Prado',
+        linkUrl: 'https://www.balboapark.org/gardens/botanical-building'
       }
     ]
   }

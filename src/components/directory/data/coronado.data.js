@@ -1,191 +1,114 @@
 const CORONADO_DATA = [
   {
     id: 1,
-    title: 'Restaurants',
+    title: 'Beaches',
     items: [
       {
         id: 51,
-        name: 'Cannonball',
-        price: '$$ Casual',
-        type: 'Seafood & Sushi',
-        address: '3105 Ocean Front Walk',
-        linkUrl: 'https://www.cannonballsd.com/'
+        name: 'Central Beach',
+        type: 'White sand, Panoramic views',
+        address: '838 Ocean Blvd',
+        linkUrl: 'https://www.yelp.com/biz/coronado-central-beach-coronado?osq=coronado'
       },
       {
         id: 52,
-        name: 'Draft',
-        price: '$$ Casual',
-        type: 'American & more',
-        address: '3105 Ocean Front Walk',
-        linkUrl: 'https://www.draftsandiego.com/'
-      },
-      {
-        id: 53,
-        name: 'Olive Cafe',
-        price: '$ Casual',
-        type: 'Breakfast',
-        address: '805 Santa Clara Pl',
-        linkUrl: 'http://olivecafe.biz/'
-      },
-      {
-        id: 54,
-        name: 'The Mission',
-        price: '$$ Casual',
-        type: 'Breakfast & Lunch',
-        address: '3795 Mission Blvd',
-        linkUrl: 'https://www.themissionsd.com/'
-      },
-      {
-        id: 55,
-        name: 'Miss B\'s',
-        price: '$$ Casual',
-        type: 'Brunch & Hawaiian',
-        address: '3704 Mission Blvd',
-        linkUrl: 'https://www.missbcoconutclub.com/'
-      },
-      {
-        id: 56,
-        name: 'Guava Beach',
-        price: '$$ Casual',
-        type: 'Bar & Grill',
-        address: '3714 Mission Blvd',
-        linkUrl: 'https://guava-beach.com/'
+        name: 'Dog Beach',
+        type: 'Off leash year round',
+        address: '100 Ocean Blvd',
+        linkUrl: 'https://www.yelp.com/biz/coronado-dog-beach-coronado?osq=coronado'
       }
     ]
   },
   {
     id: 2,
-    title: 'Beaches',
+    title: 'Rentals',
     items: [
       {
         id: 51,
-        name: 'Law St',
-        type: 'Surf, Sunset, Yoga',
-        address: '4800 Ocean Blvd',
-        linkUrl: 'https://www.yelp.com/biz/law-street-san-diego?osq=law+st+beach'
+        name: 'Ray\'s Rentals - Coronado',
+        type: 'Bikes, Jetskis, Kayaks',
+        address: '2000 2nd St',
+        linkUrl: 'http://www.rays-rentals.com/locations/coronado-island/'
       },
       {
         id: 52,
-        name: 'Crystal Pier',
-        type: 'Free, Great Views, Fishing',
-        address: '4500 Ocean Blvd',
-        linkUrl: 'https://www.yelp.com/biz/crystal-pier-san-diego?osq=crystal+pier'
+        name: 'Holland\'s Bikes & Beyond',
+        type: 'Bikes, Surreys',
+        address: '1201 1st St Ste 122',
+        linkUrl: 'https://www.hollandsbicycles.com/'
       },
       {
         id: 53,
-        name: 'Diamond St',
-        type: 'Sand, Grass, Boardwalk',
-        address: '610 Diamond St',
-        linkUrl: 'https://www.tripadvisor.com/ShowTopic-g60750-i41-k2664139-Diamond_Street_Pacific_Beach-San_Diego_California.html'
-      },
-      {
-        id: 54,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
+        name: 'Seaforth Boat Rental',
+        type: 'Sail, Jetski, Powerboat, Boat Tour',
+        address: '1715 Strand Way',
+        linkUrl: 'https://seaforthboatrental.com/'
       }
     ]
   },
   {
     id: 3,
-    title: 'Family',
+    title: 'Restaurants',
     items: [
       {
         id: 51,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
+        name: 'Hotel Del Splash Bar',
+        price: '$$ Casual',
+        type: 'Deli, Seafood',
+        address: '1500 Orange Ave',
+        linkUrl: 'https://www.yelp.com/biz/hotel-del-coronado-splash-bar-and-deli-coronado?osq=hotel+del'
       },
       {
         id: 52,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
+        name: 'Miguel\'s Cocina',
+        price: '$$ Casual',
+        type: 'Mexican',
+        address: '1351 Orange Ave',
+        linkUrl: 'http://www.miguels-cocina.com/'
       },
       {
         id: 53,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
+        name: 'Stake Chophouse & Bar',
+        price: '$$$$ Formal',
+        type: 'Wine Bar, Seafood, Steakhouse',
+        address: '1309 Orange Ave',
+        linkUrl: 'https://stakechophousesd.com/y-reservations/?utm_source=paidad&utm_medium=cpc&utm_campaign=yelpad'
       },
       {
         id: 54,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
+        name: 'Peohe\'s',
+        price: '$$ Nice Attire',
+        type: 'Seafood, Sushi Bar',
+        address: '1201 1st St',
+        linkUrl: 'https://www.peohes.com/'
+      },
+      {
+        id: 55,
+        name: 'Saiko Sushi',
+        price: '$$ Casual',
+        type: 'Sushi Bar',
+        address: '116 Orange Ave',
+        linkUrl: 'http://saikosushisd.com/'
       }
     ]
   },
   {
     id: 4,
-    title: 'Rentals',
-    items: [
-      {
-        id: 51,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 52,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 53,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 54,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      }
-    ]
-  },
-  {
-    id: 5,
     title: 'Breweries',
     items: [
       {
         id: 51,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
+        name: 'Coronado Brewing',
+        type: 'Brewpub',
+        address: '170 Orange Ave',
+        linkUrl: 'https://coronadobrewing.com/'
       },
       {
         id: 52,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 53,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 54,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
+        name: 'Wine A Bit',
+        type: 'Beer, Wine & Spirits',
+        address: '928 Orange Ave',
+        linkUrl: 'https://wineabitcoronado.com/'
       }
     ]
   }

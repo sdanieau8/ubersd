@@ -22,9 +22,8 @@ class OceanBeach extends React.Component {
       </div>
       <Homebutton />
       <h2 className='beachinfo'>
-      Ocean Beach is great for walking the boardwalk, lounging on the beach,
-      bike rentals, surf lessons 
-      and amazing food. Extra text to fill up space.
+      Ocean Beach offers an old school beach vibe with eclectic boutiques all around.
+      There are sandy beaches as well as small cliff areas for picnics.
       </h2>
       
       <div className='pb-list'>

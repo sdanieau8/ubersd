@@ -22,9 +22,8 @@ class LajollaShores extends React.Component {
       </div>
       <Homebutton />
       <h2 className='beachinfo'>
-      La Jolla Shores is great for walking the boardwalk, lounging on the beach,
-      bike rentals, surf lessons 
-      and amazing food. Extra text to fill up space.
+      La Jolla Shores is the perfect spot for a family beach day either on the grass or sand.
+      A good place to learn surfing or body boarding.
       </h2>
       
       <div className='pb-list'>

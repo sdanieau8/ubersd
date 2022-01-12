@@ -1,11 +1,11 @@
 const CASUAL_DATA = [
   {
     id: 1,
-    title: 'Restaurants',
+    title: 'Point Loma',
     items: [
       {
         id: 51,
-        name: 'Cannonball',
+        name: 'The Fish Shop',
         price: '$$ Casual',
         type: 'Seafood & Sushi',
         address: '3105 Ocean Front Walk',
@@ -13,7 +13,7 @@ const CASUAL_DATA = [
       },
       {
         id: 52,
-        name: 'Draft',
+        name: 'Dirty Birds',
         price: '$$ Casual',
         type: 'American & more',
         address: '3105 Ocean Front Walk',
@@ -21,7 +21,7 @@ const CASUAL_DATA = [
       },
       {
         id: 53,
-        name: 'Olive Cafe',
+        name: 'Corvette Diner',
         price: '$ Casual',
         type: 'Breakfast',
         address: '805 Santa Clara Pl',
@@ -29,7 +29,7 @@ const CASUAL_DATA = [
       },
       {
         id: 54,
-        name: 'The Mission',
+        name: 'Point Loma Seafood',
         price: '$$ Casual',
         type: 'Breakfast & Lunch',
         address: '3795 Mission Blvd',
@@ -37,7 +37,7 @@ const CASUAL_DATA = [
       },
       {
         id: 55,
-        name: 'Miss B\'s',
+        name: 'Breakfast Republic',
         price: '$$ Casual',
         type: 'Brunch & Hawaiian',
         address: '3704 Mission Blvd',
@@ -45,7 +45,23 @@ const CASUAL_DATA = [
       },
       {
         id: 56,
-        name: 'Guava Beach',
+        name: 'Old Venice Italian',
+        price: '$$ Casual',
+        type: 'Bar & Grill',
+        address: '3714 Mission Blvd',
+        linkUrl: 'https://guava-beach.com/'
+      },
+      {
+        id: 57,
+        name: 'Humphrey\'s',
+        price: '$$ Casual',
+        type: 'Bar & Grill',
+        address: '3714 Mission Blvd',
+        linkUrl: 'https://guava-beach.com/'
+      },
+      {
+        id: 58,
+        name: 'Miguel\'s Cantina',
         price: '$$ Casual',
         type: 'Bar & Grill',
         address: '3714 Mission Blvd',

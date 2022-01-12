@@ -22,9 +22,8 @@ class Bars extends React.Component {
       </div>
       <Homebutton />
       <h2 className='beachinfo'>
-      Bars is great for walking the boardwalk, lounging on the beach,
-      bike rentals, surf lessons 
-      and amazing food. Extra text to fill up space.
+      Below is a list of bars categorized by neighborhood. If you are
+      looking for a larger brewery, check out the Breweries tab on the home page. 
       </h2>
       
       <div className='pb-list'>

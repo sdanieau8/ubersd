@@ -22,9 +22,7 @@ class LajollaCove extends React.Component {
       </div>
       <Homebutton />
       <h2 className='beachinfo'>
-      La Jolla Cove is great for walking the boardwalk, lounging on the beach,
-      bike rentals, surf lessons 
-      and amazing food. Extra text to fill up space.
+      La Jolla Cove has coastline views, tide pools, and lots of seals! It's a popular spot for scuba diving and kayaking. 
       </h2>
       
       <div className='pb-list'>

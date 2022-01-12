@@ -1,191 +1,88 @@
 const LAJOLLACOVE_DATA = [
   {
     id: 1,
-    title: 'Restaurants',
+    title: 'Beaches',
     items: [
       {
         id: 51,
-        name: 'Cannonball',
-        price: '$$ Casual',
-        type: 'Seafood & Sushi',
-        address: '3105 Ocean Front Walk',
-        linkUrl: 'https://www.cannonballsd.com/'
+        name: 'Children\'s Pool',
+        type: 'Not For Swimming! Reserved for Seals',
+        address: '850 Coast Blvd',
+        linkUrl: 'https://www.yelp.com/biz/childrens-pool-la-jolla?osq=children%27s+pool'
       },
       {
         id: 52,
-        name: 'Draft',
-        price: '$$ Casual',
-        type: 'American & more',
-        address: '3105 Ocean Front Walk',
-        linkUrl: 'https://www.draftsandiego.com/'
-      },
-      {
-        id: 53,
-        name: 'Olive Cafe',
-        price: '$ Casual',
-        type: 'Breakfast',
-        address: '805 Santa Clara Pl',
-        linkUrl: 'http://olivecafe.biz/'
-      },
-      {
-        id: 54,
-        name: 'The Mission',
-        price: '$$ Casual',
-        type: 'Breakfast & Lunch',
-        address: '3795 Mission Blvd',
-        linkUrl: 'https://www.themissionsd.com/'
-      },
-      {
-        id: 55,
-        name: 'Miss B\'s',
-        price: '$$ Casual',
-        type: 'Brunch & Hawaiian',
-        address: '3704 Mission Blvd',
-        linkUrl: 'https://www.missbcoconutclub.com/'
-      },
-      {
-        id: 56,
-        name: 'Guava Beach',
-        price: '$$ Casual',
-        type: 'Bar & Grill',
-        address: '3714 Mission Blvd',
-        linkUrl: 'https://guava-beach.com/'
+        name: 'The Cove',
+        type: 'Sand, Grass, Snorkel',
+        address: '1100 Coast Blvd',
+        linkUrl: 'https://www.yelp.com/biz/la-jolla-cove-la-jolla?osq=la+jolla+cove'
       }
     ]
   },
   {
     id: 2,
-    title: 'Beaches',
+    title: 'Rentals',
     items: [
       {
-        id: 51,
-        name: 'Law St',
-        type: 'Surf, Sunset, Yoga',
-        address: '4800 Ocean Blvd',
-        linkUrl: 'https://www.yelp.com/biz/law-street-san-diego?osq=law+st+beach'
-      },
-      {
         id: 52,
-        name: 'Crystal Pier',
-        type: 'Free, Great Views, Fishing',
-        address: '4500 Ocean Blvd',
-        linkUrl: 'https://www.yelp.com/biz/crystal-pier-san-diego?osq=crystal+pier'
-      },
-      {
-        id: 53,
-        name: 'Diamond St',
-        type: 'Sand, Grass, Boardwalk',
-        address: '610 Diamond St',
-        linkUrl: 'https://www.tripadvisor.com/ShowTopic-g60750-i41-k2664139-Diamond_Street_Pacific_Beach-San_Diego_California.html'
-      },
-      {
-        id: 54,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
+        name: 'La Jolla Swim and Sport',
+        type: 'Water Gear, Beach Gear, Scooters',
+        address: '7644-1 Girard Ave',
+        linkUrl: 'https://www.lajollaswimandsport.com/'
       }
     ]
   },
   {
     id: 3,
-    title: 'Family',
+    title: 'Restaurants',
     items: [
       {
         id: 51,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
+        name: 'Duke\'s',
+        price: '$$ Casual',
+        type: 'American, Seafood',
+        address: '1216 Prospect St',
+        linkUrl: 'https://www.dukeslajolla.com/'
       },
       {
         id: 52,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
+        name: 'Eddie V\'s Prime Seafood',
+        price: '$$$ Formal',
+        type: 'Seafood, Steakhouse',
+        address: '1270 Prospect St',
+        linkUrl: 'https://www.eddiev.com/locations/ca/la-jolla/la-jolla/8511?cmpid=br:ev_ag:ie_ch:dry_ca:EVYELP_sn:yelp_gt:la-jolla-ca-8511_pl:locurl_rd:1010'
       },
       {
         id: 53,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
+        name: 'Richard Walker\'s Pancake House',
+        price: '$$ Casual',
+        type: 'Breakfast & Brunch',
+        address: '909 Prospect St',
+        linkUrl: 'https://www.richardwalkers.com/'
       },
       {
         id: 54,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      }
-    ]
-  },
-  {
-    id: 4,
-    title: 'Rentals',
-    items: [
-      {
-        id: 51,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
+        name: 'Herringbone',
+        price: '$$$ Casual',
+        type: 'Seafood',
+        address: '7837 Herschel Ave',
+        linkUrl: 'https://taogroup.com/venues/herringbone-la-jolla/'
       },
       {
-        id: 52,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
+        id: 55,
+        name: 'Nekter Juice Bar',
+        price: '$ Casual',
+        type: 'Smoothies, Acai Bowls, Ice Cream',
+        address: '834 Kline St',
+        linkUrl: 'https://locations.nekterjuicebar.com/ll/us/ca/la-jolla/834-kline-st/'
       },
       {
-        id: 53,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 54,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      }
-    ]
-  },
-  {
-    id: 5,
-    title: 'Breweries',
-    items: [
-      {
-        id: 51,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 52,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 53,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 54,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
+        id: 56,
+        name: 'The Lot',
+        price: '$$ Casual',
+        type: 'Cafe, Bar, Dinner Theater',
+        address: '7611 Fay Ave',
+        linkUrl: 'https://thelotent.com/home#!'
       }
     ]
   }

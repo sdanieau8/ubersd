@@ -24,7 +24,7 @@ class MissionBeach extends React.Component {
       <h2 className='beachinfo'>
       Mission Beach is great for walking the boardwalk, lounging on the beach,
       bike rentals, surf lessons 
-      and amazing food. Extra text to fill up space.
+      and amazing food.
       </h2>
       
       <div className='pb-list'>

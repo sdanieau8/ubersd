@@ -22,9 +22,8 @@ class Landmarks extends React.Component {
       </div>
       <Homebutton />
       <h2 className='beachinfo'>
-      Landmarks is great for walking the boardwalk, lounging on the beach,
-      bike rentals, surf lessons 
-      and amazing food. Extra text to fill up space.
+      Many of San Diego's Landmarks also have adjacent parks. Make sure to check out the
+      Parks page as well!
       </h2>
       
       <div className='pb-list'>

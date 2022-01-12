@@ -22,9 +22,7 @@ class SunsetCliffs extends React.Component {
       </div>
       <Homebutton />
       <h2 className='beachinfo'>
-      Sunset Cliffs is great for walking the boardwalk, lounging on the beach,
-      bike rentals, surf lessons 
-      and amazing food. Extra text to fill up space.
+      Sunset Cliffs is the best spot for sunsets. Not recommended for small children, the area is fun to explore with good footwear.  
       </h2>
       
       <div className='pb-list'>

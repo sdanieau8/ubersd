@@ -1,7 +1,7 @@
 const LARGEBREWERIES_DATA = [
   {
     id: 1,
-    title: 'Restaurants',
+    title: 'Mira Mesa',
     items: [
       {
         id: 51,
@@ -55,11 +55,11 @@ const LARGEBREWERIES_DATA = [
   },
   {
     id: 2,
-    title: 'Beaches',
+    title: 'Point Loma',
     items: [
       {
         id: 51,
-        name: 'Law St',
+        name: 'Stone Brewery',
         type: 'Surf, Sunset, Yoga',
         address: '4800 Ocean Blvd',
         linkUrl: 'https://www.yelp.com/biz/law-street-san-diego?osq=law+st+beach'
