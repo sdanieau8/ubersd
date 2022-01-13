@@ -22,9 +22,7 @@ class Sports extends React.Component {
       </div>
       <Homebutton />
       <h2 className='beachinfo'>
-      Sports is great for walking the boardwalk, lounging on the beach,
-      bike rentals, surf lessons 
-      and amazing food. Extra text to fill up space.
+      San Diego is home to four professional teams and hosts many college sports!
       </h2>
       
       <div className='pb-list'>

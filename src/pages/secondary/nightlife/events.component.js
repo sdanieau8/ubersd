@@ -22,9 +22,8 @@ class Events extends React.Component {
       </div>
       <Homebutton />
       <h2 className='beachinfo'>
-      Events is great for walking the boardwalk, lounging on the beach,
-      bike rentals, surf lessons 
-      and amazing food. Extra text to fill up space.
+      San Diego hosts many local and national events. Be sure to check a venue's
+      website for updates and new event listings!
       </h2>
       
       <div className='pb-list'>

@@ -86,7 +86,7 @@ const BARS_DATA = [
       },
       {
         id: 53,
-        name: 'Babcock & Story Bar',
+        name: 'Babcock & Story',
         type: 'Cocktail Bar',
         address: '1500 Orange Ave',
         linkUrl: 'https://hoteldel.com/dine/babcock-and-story-bar/'
@@ -107,30 +107,30 @@ const BARS_DATA = [
       {
         id: 51,
         name: 'Vessel',
-        type: '',
-        address: '',
-        linkUrl: ''
+        type: 'Bar, Seafood',
+        address: '1551 Shelter Island Dr',
+        linkUrl: 'https://www.resortkonakai.com/shelter-island-restaurant/'
       },
       {
         id: 52,
         name: 'Blue Wave',
-        type: '',
-        address: '',
-        linkUrl: ''
+        type: 'Bar & Grill',
+        address: '2051 Shelter Island Dr',
+        linkUrl: 'https://www.islandpalms.com/dining'
       },
       {
         id: 53,
         name: 'Eppig Brewing',
-        type: '',
-        address: '',
-        linkUrl: ''
+        type: 'Biergarten',
+        address: '2817 Dickens St',
+        linkUrl: 'http://www.eppigbrewing.com/'
       },
       {
         id: 54,
         name: 'Harbor Town',
-        type: '',
-        address: '',
-        linkUrl: ''
+        type: 'Pub',
+        address: '1125 Rosecrans St',
+        linkUrl: 'https://www.harbortownpub.com/'
       }
     ]
   },
@@ -140,31 +140,31 @@ const BARS_DATA = [
     items: [
       {
         id: 51,
-        name: 'OB Brew',
-        type: '',
-        address: '',
-        linkUrl: ''
+        name: 'OB Brewery',
+        type: 'Gastropub',
+        address: '5041 Newport Ave',
+        linkUrl: 'https://www.obbrewingco.com/'
       },
       {
         id: 52,
-        name: 'Wonderland',
-        type: '',
-        address: '',
-        linkUrl: ''
+        name: 'Pacific Shores',
+        type: 'Dive Bar, Lounge',
+        address: '4927 Newport Ave',
+        linkUrl: 'https://www.yelp.com/biz/pacific-shores-san-diego-2'
       },
       {
         id: 53,
-        name: 'Pacific Shores',
-        type: '',
-        address: '',
-        linkUrl: ''
+        name: 'Wonderland Ocean Pub',
+        type: 'Sports Bar',
+        address: '5083 Santa Monica Ave Ste 2C',
+        linkUrl: 'https://wonderlandob.com/'
       },
       {
         id: 54,
         name: 'Kilowatt',
-        type: '',
-        address: '',
-        linkUrl: ''
+        type: 'Beer Bar',
+        address: '1875 Cable St',
+        linkUrl: 'https://kilowatt.beer/'
       }
     ]
   },
@@ -175,30 +175,30 @@ const BARS_DATA = [
       {
         id: 51,
         name: 'Waterbar',
-        type: '',
-        address: '',
-        linkUrl: ''
+        type: 'Cocktail Bar, Seafood',
+        address: '4325 Ocean Blvd',
+        linkUrl: 'https://www.waterbarsd.com/'
       },
       {
         id: 52,
-        name: 'Grass Skirt',
-        type: '',
-        address: '',
-        linkUrl: ''
+        name: 'The Grass Skirt',
+        type: 'Tiki Lounge',
+        address: '910 Grand Ave',
+        linkUrl: 'https://www.thegrassskirt.com/'
       },
       {
         id: 53,
         name: 'PB Shore Club',
-        type: '',
-        address: '',
-        linkUrl: ''
+        type: 'Bar, Seafood',
+        address: '4343 Ocean Blvd',
+        linkUrl: 'https://www.pbshoreclub.com/'
       },
       {
         id: 54,
         name: 'El Prez',
-        type: '',
-        address: '',
-        linkUrl: ''
+        type: 'Beach Bar & Cocina',
+        address: '4190 Mission Blvd',
+        linkUrl: 'https://www.elprezpb.com/'
       }
     ]
   },
@@ -209,30 +209,30 @@ const BARS_DATA = [
       {
         id: 51,
         name: 'Nautilus Tavern',
-        type: '',
-        address: '',
-        linkUrl: ''
+        type: 'Sports Bar',
+        address: '6830 La Jolla Blvd',
+        linkUrl: 'https://nautilus-tavern.com/'
       },
       {
         id: 52,
         name: 'The Spot',
-        type: '',
-        address: '',
-        linkUrl: ''
+        type: 'Sports Bar',
+        address: '1005 Prospect St',
+        linkUrl: 'https://thespotonline.com/'
       },
       {
         id: 53,
-        name: 'Hennessey',
-        type: '',
-        address: '',
-        linkUrl: ''
+        name: 'Hennessey\'s Tavern',
+        type: 'Irish',
+        address: '7811 Herschel Ave',
+        linkUrl: 'https://www.hennesseystavern.com/locations-la-jolla'
       },
       {
         id: 54,
         name: 'Shore Rider',
-        type: '',
-        address: '',
-        linkUrl: ''
+        type: 'Cocktail Bar, Seafood, Burgers',
+        address: '2168 Avenida De La Playa',
+        linkUrl: 'http://www.shoreridersd.com/'
       }
     ]
   },
@@ -243,16 +243,16 @@ const BARS_DATA = [
       {
         id: 51,
         name: 'Yard House',
-        type: '',
-        address: '',
-        linkUrl: ''
+        type: 'Bar, Vegetarian',
+        address: '1640 Camino Del Rio N Ste 157',
+        linkUrl: 'https://www.yardhouse.com/locations/ca/san-diego/san-diego-mission-valley-mall/8363?cmpid=br:yh_ag:ie_ch:dryppc_ca:YHQ322YELPADCOREAON_dt:20211201_sn:yelp_pl:adclick_rd:1001'
       },
       {
         id: 52,
         name: 'TBS Tavern',
-        type: '',
-        address: '',
-        linkUrl: ''
+        type: 'Bar, Tacos',
+        address: '8555 Station Village Way',
+        linkUrl: 'https://tbstavern.com/'
       }
     ]
   },
@@ -263,30 +263,30 @@ const BARS_DATA = [
       {
         id: 51,
         name: 'Ketch Brewing',
-        type: '',
-        address: '',
-        linkUrl: ''
+        type: 'Tasting Room',
+        address: '7889 Ostrow St',
+        linkUrl: 'https://www.yelp.com/biz/ketch-brewing-san-diego'
       },
       {
         id: 52,
-        name: 'Traveling Tavern',
-        type: '',
-        address: '',
-        linkUrl: ''
+        name: 'Common Theory',
+        type: 'Gastropub',
+        address: '4805 Convoy St',
+        linkUrl: 'https://www.commontheorysd.com/'
       },
       {
         id: 53,
         name: 'Realm of the 52',
-        type: '',
-        address: '',
-        linkUrl: ''
+        type: 'Inside Common Theory',
+        address: '4805 Convoy St',
+        linkUrl: 'https://www.52remedies.com/'
       },
       {
         id: 54,
         name: 'Cross St',
-        type: '',
-        address: '',
-        linkUrl: ''
+        type: 'Beer Bar, Korean',
+        address: '4403 Convoy St',
+        linkUrl: 'https://crossstreetcnb.com/'
       }
     ]
   }
