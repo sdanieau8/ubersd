@@ -1,160 +1,101 @@
 const LARGEBREWERIES_DATA = [
   {
     id: 1,
-    title: 'Mira Mesa',
+    title: 'Miramar',
     items: [
       {
         id: 51,
-        name: 'Cannonball',
-        price: '$$ Casual',
-        type: 'Seafood & Sushi',
-        address: '3105 Ocean Front Walk',
-        linkUrl: 'https://www.cannonballsd.com/'
+        name: 'Ballast Point',
+        address: '9045 Carroll Way',
+        linkUrl: 'https://ballastpoint.com/location/miramar/#_ga=2.86910296.1388175142.1642538465-1818201150.1642201878'
       },
       {
         id: 52,
-        name: 'Draft',
-        price: '$$ Casual',
-        type: 'American & more',
-        address: '3105 Ocean Front Walk',
-        linkUrl: 'https://www.draftsandiego.com/'
+        name: 'Green Flash',
+        address: '6550 Mira Mesa Blvd',
+        linkUrl: 'https://www.greenflashbrew.com/'
       },
       {
         id: 53,
-        name: 'Olive Cafe',
-        price: '$ Casual',
-        type: 'Breakfast',
-        address: '805 Santa Clara Pl',
-        linkUrl: 'http://olivecafe.biz/'
+        name: 'AleSmith',
+        address: '9990 AleSmith Ct',
+        linkUrl: 'https://alesmith.com/'
       },
       {
         id: 54,
-        name: 'The Mission',
-        price: '$$ Casual',
-        type: 'Breakfast & Lunch',
-        address: '3795 Mission Blvd',
-        linkUrl: 'https://www.themissionsd.com/'
+        name: 'Saint Archer',
+        address: '9550 Distribution Ave',
+        linkUrl: 'https://www.saintarcherbrewery.com/'
       },
       {
         id: 55,
-        name: 'Miss B\'s',
-        price: '$$ Casual',
-        type: 'Brunch & Hawaiian',
-        address: '3704 Mission Blvd',
-        linkUrl: 'https://www.missbcoconutclub.com/'
+        name: 'Cutwater Spirits',
+        address: '9750 Distribution Ave',
+        linkUrl: 'https://www.cutwaterspirits.com/'
       },
       {
         id: 56,
-        name: 'Guava Beach',
-        price: '$$ Casual',
-        type: 'Bar & Grill',
-        address: '3714 Mission Blvd',
-        linkUrl: 'https://guava-beach.com/'
+        name: 'JuneShine Ranch',
+        address: '10051 Old Grove Rd',
+        linkUrl: 'https://juneshine.com/'
       }
     ]
   },
   {
     id: 2,
-    title: 'Point Loma',
+    title: 'Downtown',
     items: [
       {
         id: 51,
-        name: 'Stone Brewery',
-        type: 'Surf, Sunset, Yoga',
-        address: '4800 Ocean Blvd',
-        linkUrl: 'https://www.yelp.com/biz/law-street-san-diego?osq=law+st+beach'
+        name: 'Stone Brewing',
+        address: '1202 Kettner Blvd',
+        linkUrl: 'https://www.stonebrewing.com/visit/outposts/kettner'
       },
       {
         id: 52,
-        name: 'Crystal Pier',
-        type: 'Free, Great Views, Fishing',
-        address: '4500 Ocean Blvd',
-        linkUrl: 'https://www.yelp.com/biz/crystal-pier-san-diego?osq=crystal+pier'
-      },
-      {
-        id: 53,
-        name: 'Diamond St',
-        type: 'Sand, Grass, Boardwalk',
-        address: '610 Diamond St',
-        linkUrl: 'https://www.tripadvisor.com/ShowTopic-g60750-i41-k2664139-Diamond_Street_Pacific_Beach-San_Diego_California.html'
-      },
-      {
-        id: 54,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
+        name: 'Ballast Point',
+        address: '2215 India St',
+        linkUrl: 'https://ballastpoint.com/location/littleitaly/'
       }
     ]
   },
   {
     id: 3,
-    title: 'Family',
+    title: 'Coronado',
     items: [
       {
         id: 51,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 52,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 53,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 54,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
+        name: 'Coronado Brewing',
+        address: '170 Orange Ave',
+        linkUrl: 'https://coronadobrewing.com/'
       }
     ]
   },
   {
     id: 4,
-    title: 'Rentals',
+    title: 'Point Loma',
     items: [
       {
         id: 51,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 52,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 53,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
-      },
-      {
-        id: 54,
-        name: 'Belmont Park',
-        type: 'Sand, Grass, Boardwalk',
-        address: '4500 Mission Blvd San Diego, CA 92109',
-        linkUrl: 'https://www.belmontpark.com/'
+        name: 'Stone Brewing',
+        address: '2816 Historic Decatur Rd Ste 116',
+        linkUrl: 'https://www.stonebrewing.com/visit/bistros/liberty-station'
       }
     ]
-  }
+  },
+  {
+    id: 5,
+    title: 'Ocean Beach',
+    items: [
+      {
+        id: 51,
+        name: 'Mike Hess Brewing',
+        address: '4893 Voltaire St',
+        linkUrl: 'https://www.mikehessbrewing.com/'
+      }
+    ]
+  },
+  
 ];
 
 

@@ -22,9 +22,7 @@ class OnWater extends React.Component {
       </div>
       <Homebutton />
       <h2 className='beachinfo'>
-      On The Water is great for walking the boardwalk, lounging on the beach,
-      bike rentals, surf lessons 
-      and amazing food. Extra text to fill up space.
+      San Diego has some beautiful views for water front dining downtown. Checkout the locations below! 
       </h2>
       
       <div className='pb-list'>

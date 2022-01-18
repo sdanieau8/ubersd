@@ -22,9 +22,7 @@ class Formal extends React.Component {
       </div>
       <Homebutton />
       <h2 className='beachinfo'>
-      Formal is great for walking the boardwalk, lounging on the beach,
-      bike rentals, surf lessons 
-      and amazing food. Extra text to fill up space.
+      Below is a list of restaurants, requiring formal attire, categorized by neighborhood.
       </h2>
       
       <div className='pb-list'>

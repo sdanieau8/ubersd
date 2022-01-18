@@ -22,9 +22,9 @@ class AttractionParks extends React.Component {
       </div>
       <Homebutton />
       <h2 className='beachinfo'>
-      Attraction Parks is great for walking the boardwalk, lounging on the beach,
-      bike rentals, surf lessons 
-      and amazing food. Extra text to fill up space.
+      Looking for a full day filled with exotic animals?
+      Check out one of San Diego's famous attraction parks
+      for a day of fun!  
       </h2>
       
       <div className='pb-list'>

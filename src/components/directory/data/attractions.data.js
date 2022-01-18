@@ -6,34 +6,30 @@ const ATTRACTIONS_DATA = [
       {
         id: 51,
         name: 'San Diego Zoo',
-        price: '$$ Casual',
-        type: 'Seafood & Sushi',
-        address: '3105 Ocean Front Walk',
-        linkUrl: 'https://www.cannonballsd.com/'
+        price: '$62',
+        address: '2920 Zoo Dr',
+        linkUrl: 'https://zoo.sandiegozoo.org/'
       },
       {
         id: 52,
         name: 'SeaWorld',
-        price: '$$ Casual',
-        type: 'American & more',
-        address: '3105 Ocean Front Walk',
-        linkUrl: 'https://www.draftsandiego.com/'
+        price: '$100',
+        address: '500 SeaWorld Dr',
+        linkUrl: 'https://seaworld.com/san-diego/'
       },
       {
         id: 53,
         name: 'Zoo Safari Park',
-        price: '$ Casual',
-        type: 'Breakfast',
-        address: '805 Santa Clara Pl',
-        linkUrl: 'http://olivecafe.biz/'
+        price: '$62',
+        address: '15500 San Pasqual Valley Rd',
+        linkUrl: 'https://sdzsafaripark.org/'
       },
       {
         id: 54,
         name: 'Birch Aquarium',
-        price: '$$ Casual',
-        type: 'Breakfast & Lunch',
-        address: '3795 Mission Blvd',
-        linkUrl: 'https://www.themissionsd.com/'
+        price: '$25',
+        address: '2300 Expedition Way Scripps Institution of Oceanography',
+        linkUrl: 'https://aquarium.ucsd.edu/'
       }
     ]
   },
@@ -44,16 +40,16 @@ const ATTRACTIONS_DATA = [
       {
         id: 51,
         name: 'Legoland',
-        type: 'Surf, Sunset, Yoga',
-        address: '4800 Ocean Blvd',
-        linkUrl: 'https://www.yelp.com/biz/law-street-san-diego?osq=law+st+beach'
+        price: '$90',
+        address: '1 Legoland Dr',
+        linkUrl: 'https://www.legoland.com/california/'
       },
       {
         id: 52,
         name: 'Belmont Park',
-        type: 'Free, Great Views, Fishing',
-        address: '4500 Ocean Blvd',
-        linkUrl: 'https://www.yelp.com/biz/crystal-pier-san-diego?osq=crystal+pier'
+        price: '$ Varies',
+        address: '3146 Mission Blvd',
+        linkUrl: 'https://www.belmontpark.com/'
       }
     ]
   }

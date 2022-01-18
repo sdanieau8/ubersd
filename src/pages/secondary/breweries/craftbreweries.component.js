@@ -22,9 +22,8 @@ class CraftBreweries extends React.Component {
       </div>
       <Homebutton />
       <h2 className='beachinfo'>
-      Craft Breweries is great for walking the boardwalk, lounging on the beach,
-      bike rentals, surf lessons 
-      and amazing food. Extra text to fill up space.
+      San Diego has the most micro breweries in the country!
+      With many options to choose from, we've highlighted our favorites and organized them by neighborhood.
       </h2>
       
       <div className='pb-list'>

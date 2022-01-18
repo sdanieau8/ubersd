@@ -170,6 +170,40 @@ const BARS_DATA = [
   },
   {
     id: 6,
+    title: 'Mission Beach',
+    items: [
+      {
+        id: 51,
+        name: 'Draft',
+        type: 'Sports Bar, American',
+        address: '3105 Ocean Front Walk',
+        linkUrl: 'https://www.draftsandiego.com/'
+      },
+      {
+        id: 52,
+        name: 'Coaster Saloon',
+        type: 'Sports Bar, BBQ',
+        address: '744 Ventura Pl',
+        linkUrl: 'https://www.cohnrestaurants.com/coastersaloon'
+      },
+      {
+        id: 53,
+        name: 'Beach House Grill',
+        type: 'American, Music Venue',
+        address: '3125 Ocean Front Walk',
+        linkUrl: 'https://www.beachhousesd.com/'
+      },
+      {
+        id: 54,
+        name: 'Single Fin Surf Grill',
+        type: 'American, Fish & Chips',
+        address: '3844 Mission Blvd',
+        linkUrl: 'https://www.singlefinfeeds.com/'
+      }
+    ]
+  },
+  {
+    id: 7,
     title: 'Pacific Beach',
     items: [
       {
@@ -203,7 +237,7 @@ const BARS_DATA = [
     ]
   },
   {
-    id: 7,
+    id: 8,
     title: 'La Jolla',
     items: [
       {
@@ -237,7 +271,7 @@ const BARS_DATA = [
     ]
   },
   {
-    id: 8,
+    id: 9,
     title: 'Mission Valley',
     items: [
       {
@@ -257,7 +291,7 @@ const BARS_DATA = [
     ]
   },
   {
-    id: 9,
+    id: 10,
     title: 'Kearney Mesa',
     items: [
       {
