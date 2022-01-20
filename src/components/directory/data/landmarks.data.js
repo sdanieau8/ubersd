@@ -9,9 +9,10 @@ const LANDMARKS_DATA = [
         price: '$20 per vehicle',
         type: 'Lighthouse, Monument, Tidepools',
         address: '1800 Cabrillo Memorial Dr',
-        mapLink: 'http://maps.apple.com/?address=1,Infinite+Loop,Cupertino,California',
+        mapLink: 'https://goo.gl/maps/TzqN9nXhQTsBhEVNA',
         linkUrl: 'https://www.nps.gov/cabr/index.htm',
         imageUrl: 'https://i.ibb.co/pwZxywX/landmarks.jpg'
+        
       },
       {
         id: 52,
