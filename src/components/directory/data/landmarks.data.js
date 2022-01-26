@@ -9,7 +9,7 @@ const LANDMARKS_DATA = [
         price: '$20 per vehicle',
         type: 'Lighthouse, Monument, Tidepools',
         address: '1800 Cabrillo Memorial Dr',
-        mapLink: 'https://goo.gl/maps/TzqN9nXhQTsBhEVNA',
+        mapLink: 'http://maps.apple.com/?address=1800,Cabrillo+Memorial+Dr,San+Diego,California',
         linkUrl: 'https://www.nps.gov/cabr/index.htm',
         imageUrl: 'https://i.ibb.co/pwZxywX/landmarks.jpg'
         
@@ -19,7 +19,8 @@ const LANDMARKS_DATA = [
         name: 'Spruce Street Suspension Bridge',
         price: 'Free',
         type: 'Photo Spot, Swaying Bridge',
-        address: 'Spruce St 1st Ave',
+        address: 'W Spruce St',
+        mapLink: 'http://maps.apple.com/?q=Spruce+Street+Suspension+Bridge',
         linkUrl: 'https://www.yelp.com/biz/spruce-street-suspension-bridge-san-diego?osq=landmarks',
         imageUrl: 'https://i.ibb.co/pwZxywX/landmarks.jpg'
       },
@@ -29,6 +30,7 @@ const LANDMARKS_DATA = [
         price: 'Free',
         type: 'Scenic Viewpoint',
         address: '6905 La Jolla Scenic Dr',
+        mapLink: 'http://maps.apple.com/?address=6905,La+Jolla+Scenic+Dr,San+Diego,California',
         linkUrl: 'https://www.yelp.com/biz/mount-soledad-national-veterans-memorial-la-jolla-2?osq=landmarks',
         imageUrl: 'https://i.ibb.co/MpY1fn2/soledad.jpg'
       },
@@ -38,6 +40,7 @@ const LANDMARKS_DATA = [
         price: 'Free',
         type: 'WWII Memorial',
         address: '55 Tuna Ln',
+        mapLink: 'http://maps.apple.com/?address=55,Tuna+Ln,San+Diego,California',
         linkUrl: 'https://www.yelp.com/biz/unconditional-surrender-statue-embracing-peace-san-diego?osq=landmarks',
         imageUrl: 'https://i.ibb.co/k16xqsR/surrender.jpg'
       },
@@ -47,6 +50,7 @@ const LANDMARKS_DATA = [
         price: '$5 per person',
         type: 'Church',
         address: '10818 San Diego Mission Rd',
+        mapLink: 'http://maps.apple.com/?address=10818,San+Diego+Mission+Rd,San+Diego,California',
         linkUrl: 'https://www.missionsandiego.org/',
         imageUrl: 'https://i.ibb.co/bX806dL/mission.jpg'
       },
@@ -56,6 +60,7 @@ const LANDMARKS_DATA = [
         price: 'Free',
         type: 'Only driving across is permitted',
         address: 'CA-75 Coronado',
+        mapLink: 'http://maps.apple.com/?q=Coronado+Bridge',
         linkUrl: 'https://www.yelp.com/biz/coronado-bridge-san-diego?osq=landmarks',
         imageUrl: 'https://i.ibb.co/kxQHrgj/bridge.jpg'
       }

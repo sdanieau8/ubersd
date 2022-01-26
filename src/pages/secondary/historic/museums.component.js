@@ -22,9 +22,8 @@ class Museums extends React.Component {
       </div>
       <Homebutton />
       <h2 className='beachinfo'>
-      MUSEUMS is great for walking the boardwalk, lounging on the beach,
-      bike rentals, surf lessons 
-      and amazing food. Extra text to fill up space.
+     Many of the city's museums are located in Balboa Park, so it is convenient to visit
+     multiple museums in one day!
       </h2>
       
       <div className='pb-list'>

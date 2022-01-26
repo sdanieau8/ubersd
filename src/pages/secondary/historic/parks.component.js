@@ -22,9 +22,7 @@ class Parks extends React.Component {
       </div>
       <Homebutton />
       <h2 className='beachinfo'>
-      Parks is great for walking the boardwalk, lounging on the beach,
-      bike rentals, surf lessons 
-      and amazing food. Extra text to fill up space.
+      There are many beautiful parks all around the city. Below is a list of our favorite spots!
       </h2>
       
       <div className='pb-list'>

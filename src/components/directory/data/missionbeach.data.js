@@ -8,6 +8,7 @@ const MB_DATA = [
         name: 'Green Flash',
         type: 'Sand, Swim, Boardwalk access',
         address: '3100 Ocean Front Walk',
+        mapLink: 'http://maps.apple.com/?address=3100,Ocean+Front+Walk,San+Diego,California',
         linkUrl: 'https://www.yelp.com/biz/green-flash-san-diego'
       },
       {
@@ -15,6 +16,7 @@ const MB_DATA = [
         name: 'South Mission Beach',
         type: 'Sand, Jetty access, Swim, Surf',
         address: '339 N Jetty Rd',
+        mapLink: 'http://maps.apple.com/?address=339,N+Jetty+Rd,San+Diego,California',
         linkUrl: 'https://www.sandiego.gov/lifeguards/beaches/smb'
       }
     ]
@@ -28,6 +30,7 @@ const MB_DATA = [
         name: 'MB Rentals at Belmont',
         type: 'Bikes, Boards, Blades, Chairs',
         address: '3136 Mission Blvd',
+        mapLink: 'http://maps.apple.com/?address=3136,Mission+Blvd,San+Diego,California',
         linkUrl: 'https://missionbeachsurfrentals.com/'
       },
       {
@@ -35,6 +38,7 @@ const MB_DATA = [
         name: 'Ray\'s Rentals',
         type: 'Bikes, Boards, Blades, Water Gear',
         address: '3221 Mission Blvd',
+        mapLink: 'http://maps.apple.com/?address=3221,Mission+Blvd,San+Diego,California',
         linkUrl: 'http://www.rays-rentals.com/locations/mission-beach/'
       },
       {
@@ -42,6 +46,7 @@ const MB_DATA = [
         name: 'Cheap Rentals',
         type: 'Bikes, Boards, Kayaks, Chairs',
         address: '3689 Mission Blvd',
+        mapLink: 'http://maps.apple.com/?address=3689,Mission+Blvd,San+Diego,California',
         linkUrl: 'https://cheap-rentals.com/'
       },
       {
@@ -62,6 +67,7 @@ const MB_DATA = [
         name: 'Belmont Park',
         type: 'Rides, Arcade, Carnival Food',
         address: '3146 Mission Blvd',
+        mapLink: 'http://maps.apple.com/?address=3146,Mission+Blvd,San+Diego,California',
         linkUrl: 'https://www.belmontpark.com/'
       },
       {
@@ -69,6 +75,7 @@ const MB_DATA = [
         name: 'Tiki Town Mini Golf',
         type: '18 Holes, Tropical Theme',
         address: '3114 Mission Blvd ',
+        mapLink: 'http://maps.apple.com/?address=3114,Mission+Blvd,San+Diego,California',
         linkUrl: 'https://www.belmontpark.com/attraction/tiki-town-mini-golf/'
       }
     ]
@@ -83,6 +90,7 @@ const MB_DATA = [
         price: '$$ Casual',
         type: 'Seafood & Sushi',
         address: '3105 Ocean Front Walk',
+        mapLink: 'http://maps.apple.com/?address=3105,Ocean+Front+Walk,San+Diego,California',
         linkUrl: 'https://www.cannonballsd.com/'
       },
       {
@@ -91,6 +99,7 @@ const MB_DATA = [
         price: '$$ Casual',
         type: 'American & more',
         address: '3105 Ocean Front Walk',
+        mapLink: 'http://maps.apple.com/?address=3105,Ocean+Front+Walk,San+Diego,California',
         linkUrl: 'https://www.draftsandiego.com/'
       },
       {
@@ -99,6 +108,7 @@ const MB_DATA = [
         price: '$ Casual',
         type: 'Breakfast',
         address: '805 Santa Clara Pl',
+        mapLink: 'http://maps.apple.com/?address=805,Santa+Clara+Pl,San+Diego,California',
         linkUrl: 'http://olivecafe.biz/'
       },
       {
@@ -107,6 +117,7 @@ const MB_DATA = [
         price: '$$ Casual',
         type: 'Breakfast & Lunch',
         address: '3795 Mission Blvd',
+        mapLink: 'http://maps.apple.com/?address=3795,Mission+Blvd,San+Diego,California',
         linkUrl: 'https://www.themissionsd.com/'
       },
       {
@@ -115,6 +126,7 @@ const MB_DATA = [
         price: '$$ Casual',
         type: 'Brunch & Hawaiian',
         address: '3704 Mission Blvd',
+        mapLink: 'http://maps.apple.com/?address=3704,Mission+Blvd,San+Diego,California',
         linkUrl: 'https://www.missbcoconutclub.com/'
       },
       {
@@ -123,6 +135,7 @@ const MB_DATA = [
         price: '$$ Casual',
         type: 'Bar & Grill',
         address: '3714 Mission Blvd',
+        mapLink: 'http://maps.apple.com/?address=3714,Mission+Blvd,San+Diego,California',
         linkUrl: 'https://guava-beach.com/'
       },
       {
@@ -131,6 +144,7 @@ const MB_DATA = [
         price: '$$ Casual',
         type: 'Seafood, American',
         address: '711 Pacific Beach Dr',
+        mapLink: 'http://maps.apple.com/?address=711,Pacific+Beach+Dr,San+Diego,California',
         linkUrl: 'https://www.worldfamouspb.com/'
       },
       {
@@ -139,6 +153,7 @@ const MB_DATA = [
         price: '$$ Casual',
         type: 'Sports Bar, American',
         address: '718 Ventura Pl',
+        mapLink: 'http://maps.apple.com/?address=718,Ventura+Pl,San+Diego,California',
         linkUrl: 'http://www.sandbarsportsgrill.com/'
       }
     ]

@@ -8,6 +8,7 @@ const LAJOLLACOVE_DATA = [
         name: 'Children\'s Pool',
         type: 'Not For Swimming! Reserved for Seals',
         address: '850 Coast Blvd',
+        mapLink: 'http://maps.apple.com/?address=850,Coast+Blvd,San+Diego,California',
         linkUrl: 'https://www.yelp.com/biz/childrens-pool-la-jolla?osq=children%27s+pool'
       },
       {
@@ -15,6 +16,7 @@ const LAJOLLACOVE_DATA = [
         name: 'The Cove',
         type: 'Sand, Grass, Snorkel',
         address: '1100 Coast Blvd',
+        mapLink: 'http://maps.apple.com/?address=1100,Coast+Blvd,San+Diego,California',
         linkUrl: 'https://www.yelp.com/biz/la-jolla-cove-la-jolla?osq=la+jolla+cove'
       }
     ]
@@ -27,7 +29,8 @@ const LAJOLLACOVE_DATA = [
         id: 52,
         name: 'La Jolla Swim and Sport',
         type: 'Water Gear, Beach Gear, Scooters',
-        address: '7644-1 Girard Ave',
+        address: '7644 Girard Ave Ste 1',
+        mapLink: 'http://maps.apple.com/?address=7644,Girard+Ave,San+Diego,California',
         linkUrl: 'https://www.lajollaswimandsport.com/'
       }
     ]
@@ -42,6 +45,7 @@ const LAJOLLACOVE_DATA = [
         price: '$$ Casual',
         type: 'American, Seafood',
         address: '1216 Prospect St',
+        mapLink: 'http://maps.apple.com/?address=1216,Prospect+St,La+Jolla,California',
         linkUrl: 'https://www.dukeslajolla.com/'
       },
       {
@@ -50,6 +54,7 @@ const LAJOLLACOVE_DATA = [
         price: '$$$ Formal',
         type: 'Seafood, Steakhouse',
         address: '1270 Prospect St',
+        mapLink: 'http://maps.apple.com/?address=1270,Prospect+St,La+Jolla,California',
         linkUrl: 'https://www.eddiev.com/locations/ca/la-jolla/la-jolla/8511?cmpid=br:ev_ag:ie_ch:dry_ca:EVYELP_sn:yelp_gt:la-jolla-ca-8511_pl:locurl_rd:1010'
       },
       {
@@ -58,6 +63,7 @@ const LAJOLLACOVE_DATA = [
         price: '$$ Casual',
         type: 'Breakfast & Brunch',
         address: '909 Prospect St',
+        mapLink: 'http://maps.apple.com/?address=909,Prospect+St,La+Jolla,California',
         linkUrl: 'https://www.richardwalkers.com/'
       },
       {
@@ -66,6 +72,7 @@ const LAJOLLACOVE_DATA = [
         price: '$$$ Casual',
         type: 'Seafood',
         address: '7837 Herschel Ave',
+        mapLink: 'http://maps.apple.com/?address=7837,Herschel+Ave,La+Jolla,California',
         linkUrl: 'https://taogroup.com/venues/herringbone-la-jolla/'
       },
       {
@@ -74,6 +81,7 @@ const LAJOLLACOVE_DATA = [
         price: '$ Casual',
         type: 'Smoothies, Acai Bowls, Ice Cream',
         address: '834 Kline St',
+        mapLink: 'http://maps.apple.com/?address=834,Kline+St,La+Jolla,California',
         linkUrl: 'https://locations.nekterjuicebar.com/ll/us/ca/la-jolla/834-kline-st/'
       },
       {
@@ -82,6 +90,7 @@ const LAJOLLACOVE_DATA = [
         price: '$$ Casual',
         type: 'Cafe, Bar, Dinner Theater',
         address: '7611 Fay Ave',
+        mapLink: 'http://maps.apple.com/?address=7611,Fay+Ave,La+Jolla,California',
         linkUrl: 'https://thelotent.com/home#!'
       }
     ]

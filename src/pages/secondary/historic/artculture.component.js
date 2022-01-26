@@ -22,9 +22,8 @@ class ArtCulture extends React.Component {
       </div>
       <Homebutton />
       <h2 className='beachinfo'>
-      Art and Culture is great for walking the boardwalk, lounging on the beach,
-      bike rentals, surf lessons 
-      and amazing food. Extra text to fill up space.
+      Art and Culture can be found all throughout the city. The places listed below
+      are dedicated to preserving and showcasing the art.
       </h2>
       
       <div className='pb-list'>

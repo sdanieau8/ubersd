@@ -1,6 +1,6 @@
 import React from "react";
 import Homebutton from "../../../components/homebutton/homebutton.component";
-import InfoCard from "../../../components/info-card/info-card.components";
+import InfoCardPhoto from "../../../components/info-card/info-card-photo.component";
 import LANDMARKS_DATA from "../../../components/directory/data/landmarks.data";
 
 import './h.styles.scss';
@@ -28,7 +28,7 @@ class Landmarks extends React.Component {
       
       <div className='pb-list'>
         {collections.map(( {id, title, items}) => (
-          <InfoCard key={id} title={title} items={items} />
+          <InfoCardPhoto key={id} title={title} items={items} />
         ))}
       </div>
     </div>

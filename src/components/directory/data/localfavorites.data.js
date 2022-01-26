@@ -8,7 +8,7 @@ const LOCALFAVORITES_DATA = [
         name: 'Dirty Birds',
         price: '$$ Casual',
         type: 'Bar, Chicken Wings',
-        address: '4656 Mission Blvd',
+        address: 'Multiple Locations',
         linkUrl: 'https://www.dirtybirdsbarandgrill.com/'
       },
       {
@@ -17,6 +17,7 @@ const LOCALFAVORITES_DATA = [
         price: '$ Casual',
         type: 'Mexican',
         address: '4657 Mission Blvd',
+        mapLink: 'http://maps.apple.com/?address=4657,Mission+Blvd,San+Diego,California',
         linkUrl: 'https://www.tacosurftacoshop.com/'
       },
       {
@@ -25,6 +26,7 @@ const LOCALFAVORITES_DATA = [
         price: '$$ Casual',
         type: 'Breakfast & Brunch',
         address: '4465 Mission Blvd',
+        mapLink: 'http://maps.apple.com/?address=4465,Mission+Blvd,San+Diego,California',
         linkUrl: 'https://www.breakfastrepublic.com/'
       },
       {
@@ -33,6 +35,7 @@ const LOCALFAVORITES_DATA = [
         price: '$ Casual',
         type: 'Mexican Taco\'s',
         address: '746 Emerald St',
+        mapLink: 'http://maps.apple.com/?address=746,Emerald+St,San+Diego,California',
         linkUrl: 'http://www.oscarsmexicanseafood.com/emerald/'
       },
       {
@@ -41,6 +44,7 @@ const LOCALFAVORITES_DATA = [
         price: '$$ Casual',
         type: 'Variety of Pot Pies',
         address: '4404 Park Blvd Ste A',
+        mapLink: 'http://maps.apple.com/?address=4404,Park+Blvd+Ste+A,San+Diego,California',
         linkUrl: 'https://www.poppieco.com/'
       },
       {
@@ -48,7 +52,7 @@ const LOCALFAVORITES_DATA = [
         name: 'Sushi Kuchi',
         price: '$$ Casual',
         type: 'Sushi Bar, Japanese',
-        address: '4 Locations',
+        address: 'Multiple Locations',
         linkUrl: 'https://sushikuchi.com/'
       }
     ]

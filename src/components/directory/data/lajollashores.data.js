@@ -8,6 +8,7 @@ const LAJOLLASHORES_DATA = [
         name: 'La Jolla Shores',
         type: 'Sand, Grass, Surf, Swim',
         address: '8200 Camino Del Oro',
+        mapLink: 'http://maps.apple.com/?address=8200,Camino+Del+Oro,La+Jolla,California',
         linkUrl: 'https://www.yelp.com/biz/la-jolla-shores-la-jolla?osq=la+jolla+cove'
       }
     ]
@@ -21,6 +22,7 @@ const LAJOLLASHORES_DATA = [
         name: 'Everyday California',
         type: 'Kayak Tours, Surf Lessons, Water Gear',
         address: '2261 Avenida De La Playa',
+        mapLink: 'http://maps.apple.com/?address=2261,Avenida+De+La+Playa,La+Jolla,California',
         linkUrl: 'https://www.everydaycalifornia.com/'
       },
       {
@@ -28,6 +30,7 @@ const LAJOLLASHORES_DATA = [
         name: 'La Jolla Kayak',
         type: 'Rentals/Tours for Kayaking, Snorkeling, & Biking',
         address: '2199 Avenida De La Playa',
+        mapLink: 'http://maps.apple.com/?address=2199,Avenida+De+La+Playa,La+Jolla,California',
         linkUrl: 'https://www.lajollakayak.com/'
       }
     ]
@@ -41,6 +44,7 @@ const LAJOLLASHORES_DATA = [
         name: 'Birch Aquarium',
         type: '60+ Habitats of Sea Life',
         address: '2300 Expedition Way Scripps Institution of Oceanography',
+        mapLink: 'http://maps.apple.com/?q=Birch+Aquarium',
         linkUrl: 'https://aquarium.ucsd.edu/'
       }
     ]
@@ -55,6 +59,7 @@ const LAJOLLASHORES_DATA = [
         price: '$$ Casual',
         type: 'Italian, Pizza, Seafood',
         address: '2182 Avenida De La Playa',
+        mapLink: 'http://maps.apple.com/?address=2182,Avenida+De+La+Playa,La+Jolla,California',
         linkUrl: 'https://lajolla.piatti.com/'
       },
       {
@@ -63,6 +68,7 @@ const LAJOLLASHORES_DATA = [
         price: '$$ Casual',
         type: 'Coffee & Tea, Brunch',
         address: '2236 Avenida De La Playa',
+        mapLink: 'http://maps.apple.com/?address=2236,Avenida+De+La+Playa,La+Jolla,California',
         linkUrl: 'http://www.shorehousekitchen.com/'
       },
       {
@@ -71,6 +77,7 @@ const LAJOLLASHORES_DATA = [
         price: '$$ Casual',
         type: 'Seafood, Burgers, Cocktail Bar',
         address: '2168 Avenida De La Playa',
+        mapLink: 'http://maps.apple.com/?address=2168,Avenida+De+La+Playa,La+Jolla,California',
         linkUrl: 'http://www.shoreridersd.com/'
       },
       {
@@ -79,6 +86,7 @@ const LAJOLLASHORES_DATA = [
         price: '$$ Formal',
         type: 'Bar, Seafood, Italian',
         address: '7955 La Jolla Shores Dr',
+        mapLink: 'http://maps.apple.com/?address=7955,La+Jolla+Shores+Dr,La+Jolla,California',
         linkUrl: 'http://www.cusprestaurant.com/'
       },
       {
@@ -87,6 +95,7 @@ const LAJOLLASHORES_DATA = [
         price: '$$$$ Formal',
         type: 'French, Seafood',
         address: '2000 Spindrift Dr',
+        mapLink: 'http://maps.apple.com/?address=2000,Spindrift+Dr,La+Jolla,California',
         linkUrl: 'https://www.marineroom.com/'
       }
     ]

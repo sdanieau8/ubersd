@@ -8,6 +8,7 @@ const CORONADO_DATA = [
         name: 'Central Beach',
         type: 'White sand, Panoramic views',
         address: '838 Ocean Blvd',
+        mapLink: 'http://maps.apple.com/?address=838,Ocean+Blvd,Coronado,California',
         linkUrl: 'https://www.yelp.com/biz/coronado-central-beach-coronado?osq=coronado'
       },
       {
@@ -15,6 +16,7 @@ const CORONADO_DATA = [
         name: 'Dog Beach',
         type: 'Off leash year round',
         address: '100 Ocean Blvd',
+        mapLink: 'http://maps.apple.com/?address=100,Ocean+Blvd,Coronado,California',
         linkUrl: 'https://www.yelp.com/biz/coronado-dog-beach-coronado?osq=coronado'
       }
     ]
@@ -28,6 +30,7 @@ const CORONADO_DATA = [
         name: 'Ray\'s Rentals - Coronado',
         type: 'Bikes, Jetskis, Kayaks',
         address: '2000 2nd St',
+        mapLink: 'http://maps.apple.com/?address=2000,Second+St,Coronado,California',
         linkUrl: 'http://www.rays-rentals.com/locations/coronado-island/'
       },
       {
@@ -35,6 +38,7 @@ const CORONADO_DATA = [
         name: 'Holland\'s Bikes & Beyond',
         type: 'Bikes, Surreys',
         address: '1201 1st St Ste 122',
+        mapLink: 'http://maps.apple.com/?address=1201,First+St,Coronado,California',
         linkUrl: 'https://www.hollandsbicycles.com/'
       },
       {
@@ -42,6 +46,7 @@ const CORONADO_DATA = [
         name: 'Seaforth Boat Rental',
         type: 'Sail, Jetski, Powerboat, Boat Tour',
         address: '1715 Strand Way',
+        mapLink: 'http://maps.apple.com/?address=1715,Strand+Way,Coronado,California',
         linkUrl: 'https://seaforthboatrental.com/'
       }
     ]
@@ -56,6 +61,7 @@ const CORONADO_DATA = [
         price: '$$ Casual',
         type: 'Deli, Seafood',
         address: '1500 Orange Ave',
+        mapLink: 'http://maps.apple.com/?address=1500,Orange+Ave,Coronado,California',
         linkUrl: 'https://www.yelp.com/biz/hotel-del-coronado-splash-bar-and-deli-coronado?osq=hotel+del'
       },
       {
@@ -64,6 +70,7 @@ const CORONADO_DATA = [
         price: '$$ Casual',
         type: 'Mexican',
         address: '1351 Orange Ave',
+        mapLink: 'http://maps.apple.com/?address=1351,Orange+Ave,Coronado,California',
         linkUrl: 'http://www.miguels-cocina.com/'
       },
       {
@@ -72,6 +79,7 @@ const CORONADO_DATA = [
         price: '$$$$ Formal',
         type: 'Wine Bar, Seafood, Steakhouse',
         address: '1309 Orange Ave',
+        mapLink: 'http://maps.apple.com/?address=1309,Orange+Ave,Coronado,California',
         linkUrl: 'https://stakechophousesd.com/y-reservations/?utm_source=paidad&utm_medium=cpc&utm_campaign=yelpad'
       },
       {
@@ -80,6 +88,7 @@ const CORONADO_DATA = [
         price: '$$ Nice Attire',
         type: 'Seafood, Sushi Bar',
         address: '1201 1st St',
+        mapLink: 'http://maps.apple.com/?address=1201,First+St,Coronado,California',
         linkUrl: 'https://www.peohes.com/'
       },
       {
@@ -88,6 +97,7 @@ const CORONADO_DATA = [
         price: '$$ Casual',
         type: 'Sushi Bar',
         address: '116 Orange Ave',
+        mapLink: 'http://maps.apple.com/?address=116,Orange+Ave,Coronado,California',
         linkUrl: 'http://saikosushisd.com/'
       }
     ]
@@ -101,6 +111,7 @@ const CORONADO_DATA = [
         name: 'Coronado Brewing',
         type: 'Brewpub',
         address: '170 Orange Ave',
+        mapLink: 'http://maps.apple.com/?address=170,Orange+Ave,Coronado,California',
         linkUrl: 'https://coronadobrewing.com/'
       },
       {
@@ -108,6 +119,7 @@ const CORONADO_DATA = [
         name: 'Wine A Bit',
         type: 'Beer, Wine & Spirits',
         address: '928 Orange Ave',
+        mapLink: 'http://maps.apple.com/?address=928,Orange+Ave,Coronado,California',
         linkUrl: 'https://wineabitcoronado.com/'
       }
     ]

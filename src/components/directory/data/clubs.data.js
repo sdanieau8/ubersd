@@ -8,6 +8,7 @@ const CLUBS_DATA = [
         name: 'Parq Nightclub',
         price: '$$',
         address: '615 Broadway',
+        mapLink: 'http://maps.apple.com/?address=615,Broadway,San+Diego,California',
         linkUrl: 'https://parqsd.com/'
       },
       {
@@ -15,6 +16,7 @@ const CLUBS_DATA = [
         name: 'Onyx Room',
         price: '$$',
         address: '852 5th Ave ',
+        mapLink: 'http://maps.apple.com/?address=852,Fifth+Ave,San+Diego,California',
         linkUrl: 'https://www.onyxroom.com/'
       },
       {
@@ -22,6 +24,7 @@ const CLUBS_DATA = [
         name: 'Sevilla Nightclub',
         price: '$$',
         address: '353 5th Ave',
+        mapLink: 'http://maps.apple.com/?address=353,Fifth+Ave,San+Diego,California',
         linkUrl: 'http://sandiego.sevillanightclub.com/'
       },
       {
@@ -29,6 +32,7 @@ const CLUBS_DATA = [
         name: 'Double Deuce',
         price: '$$',
         address: '528 F St',
+        mapLink: 'http://maps.apple.com/?address=528,F+St,San+Diego,California',
         linkUrl: 'https://doubledeucesd.com/'
       },
       {
@@ -36,6 +40,7 @@ const CLUBS_DATA = [
         name: 'Whiskey Girl',
         price: '$$',
         address: '702 5th Ave',
+        mapLink: 'http://maps.apple.com/?address=702,Fifth+Ave,San+Diego,California',
         linkUrl: 'https://whiskeygirl.com/'
       }
     ]

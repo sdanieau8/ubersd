@@ -8,6 +8,7 @@ const PB_DATA = [
         name: 'Law St',
         type: 'Surf, Sunset, Yoga',
         address: '4800 Ocean Blvd',
+        mapLink: 'http://maps.apple.com/?address=4800,Ocean+Blvd,San+Diego,California',
         linkUrl: 'https://www.yelp.com/biz/law-street-san-diego?osq=law+st+beach'
       },
       {
@@ -15,6 +16,7 @@ const PB_DATA = [
         name: 'Crystal Pier',
         type: 'Free, Great Views, Fishing',
         address: '4500 Ocean Blvd',
+        mapLink: 'http://maps.apple.com/?address=4500,Ocean+Blvd,San+Diego,California',
         linkUrl: 'https://www.yelp.com/biz/crystal-pier-san-diego?osq=crystal+pier'
       },
       {
@@ -22,13 +24,15 @@ const PB_DATA = [
         name: 'Diamond St',
         type: 'Sand, Swim, Boardwalk access',
         address: '610 Diamond St',
+        mapLink: 'http://maps.apple.com/?address=610,Diamond+St,San+Diego,California',
         linkUrl: 'https://www.tripadvisor.com/ShowTopic-g60750-i41-k2664139-Diamond_Street_Pacific_Beach-San_Diego_California.html'
       },
       {
         id: 54,
         name: 'Grand Ave',
         type: 'Sand, Surf, Swim, Boardwalk access',
-        address: '4507 Ocean Blvd',
+        address: '700 Grand Ave',
+        mapLink: 'http://maps.apple.com/?address=700,Grand+Ave,San+Diego,California',
         linkUrl: 'https://pacificbeach.org'
       }
     ]
@@ -42,6 +46,7 @@ const PB_DATA = [
         name: 'Ray\'s Rentals',
         type: 'Bikes, Boards, Blades, Water Gear',
         address: '4655 Mission Blvd',
+        mapLink: 'http://maps.apple.com/?address=4655,Mission+Blvd,San+Diego,California',
         linkUrl: 'http://www.rays-rentals.com'
       },
       {
@@ -49,6 +54,7 @@ const PB_DATA = [
         name: 'PB Surf Shop',
         type: 'Rentals & Gear, Lessons',
         address: '4208 Oliver Ct',
+        mapLink: 'http://maps.apple.com/?address=4208,Oliver+Ct,San+Diego,California',
         linkUrl: 'http://www.pbsurfshop.com'
       }
     ]
@@ -62,13 +68,15 @@ const PB_DATA = [
         name: 'PB Ale House',
         type: 'Craft Beers & Full Menu',
         address: '721 Grand Ave',
+        mapLink: 'http://maps.apple.com/?address=721,Grand+Ave,San+Diego,California',
         linkUrl: 'https://pbalehouse.com/'
       },
       {
         id: 52,
-        name: 'SD Tap Room',
+        name: 'Tap Room',
         type: 'Craft Beer, Cider, Kombucha',
         address: '1269 Garnet Ave',
+        mapLink: 'http://maps.apple.com/?address=1269,Garnet+Ave,San+Diego,California',
         linkUrl: 'https://sdtaproom.com/'
       },
       {
@@ -76,6 +84,7 @@ const PB_DATA = [
         name: 'Iron Pig Alehouse',
         type: 'Craft Beer & Texas BBQ',
         address: '1520 Garnet Ave',
+        mapLink: 'http://maps.apple.com/?address=1520,Garnet+Ave,San+Diego,California',
         linkUrl: 'http://ironpigalehouse.com/'
       },
       {
@@ -83,6 +92,7 @@ const PB_DATA = [
         name: 'Amplified Ale Works',
         type: 'Brewpub & Mediterranean',
         address: '4150 Mission Blvd Ste 208',
+        mapLink: 'http://maps.apple.com/?address=4150,Mission+Blvd+Ste+208,San+Diego,California',
         linkUrl: 'https://amplifiedales.com/'
       }
     ]
@@ -97,6 +107,7 @@ const PB_DATA = [
         price: '$ Casual',
         type: 'Breakfast Burrito\'s',
         address: '704 Garnet Ave',
+        mapLink: 'http://maps.apple.com/?address=704,Garnet+Ave,San+Diego,California',
         linkUrl: 'http://www.konoscafe.com'
       },
       {
@@ -105,6 +116,7 @@ const PB_DATA = [
         price: '$$ Casual',
         type: 'Bar, New Zealand',
         address: '4640 Mission Blvd',
+        mapLink: 'http://maps.apple.com/?address=4640,Mission+Blvd,San+Diego,California',
         linkUrl: 'https://barebackgrill.com/'
       },
       {
@@ -113,6 +125,7 @@ const PB_DATA = [
         price: '$$ Casual',
         type: 'Bar, Chicken Wings',
         address: '4656 Mission Blvd',
+        mapLink: 'http://maps.apple.com/?address=4656,Mission+Blvd,San+Diego,California',
         linkUrl: 'https://www.dirtybirdsbarandgrill.com/'
       },
       {
@@ -121,6 +134,7 @@ const PB_DATA = [
         price: '$ Casual',
         type: 'Mexican',
         address: '4657 Mission Blvd',
+        mapLink: 'http://maps.apple.com/?address=4657,Mission+Blvd,San+Diego,California',
         linkUrl: 'https://www.tacosurftacoshop.com/'
       },
       {
@@ -129,6 +143,7 @@ const PB_DATA = [
         price: '$ Casual',
         type: 'Mexican Taco\'s',
         address: '746 Emerald St',
+        mapLink: 'http://maps.apple.com/?address=746,Emerald+St,San+Diego,California',
         linkUrl: 'http://www.oscarsmexicanseafood.com/emerald/'
       },
       {
@@ -137,6 +152,7 @@ const PB_DATA = [
         price: '$$ Casual',
         type: 'Breakfast & Brunch',
         address: '4465 Mission Blvd',
+        mapLink: 'http://maps.apple.com/?address=4465,Mission+Blvd,San+Diego,California',
         linkUrl: 'https://www.breakfastrepublic.com/'
       },
       {
@@ -145,6 +161,7 @@ const PB_DATA = [
         price: '$$ Casual',
         type: 'Bar, Mexican',
         address: '4190 Mission Blvd',
+        mapLink: 'http://maps.apple.com/?address=4190,Mission+Blvd,San+Diego,California',
         linkUrl: 'https://www.elprezpb.com/'
       },
       {
@@ -153,6 +170,7 @@ const PB_DATA = [
         price: '$$ Casual',
         type: 'Ice Cream, Desserts',
         address: '4516 Mission Blvd',
+        mapLink: 'http://maps.apple.com/?address=4516,Mission+Blvd,San+Diego,California',
         linkUrl: 'https://www.thebakedbear.com/pacificbeach/'
       },
       {
@@ -161,6 +179,7 @@ const PB_DATA = [
         price: '$$ Casual',
         type: 'Seafood',
         address: '5040 Cass St',
+        mapLink: 'http://maps.apple.com/?address=5040,Cass+St,San+Diego,California',
         linkUrl: 'https://www.thefishery.com/'
       },
       {
@@ -169,6 +188,7 @@ const PB_DATA = [
         price: '$ Casual',
         type: 'Sushi, Japanese',
         address: '1441 Garnet Ave',
+        mapLink: 'http://maps.apple.com/?address=1441,Garnet+Ave,San+Diego,California',
         linkUrl: 'https://www.yelp.com/biz/ichiban-pb-san-diego?osq=ichi+ban'
       },
       {
@@ -177,6 +197,7 @@ const PB_DATA = [
         price: '$$ Casual',
         type: 'Tiki Bar, Poke',
         address: '910 Grand Ave',
+        mapLink: 'http://maps.apple.com/?address=910,Grand+Ave,San+Diego,California',
         linkUrl: 'https://www.thegrassskirt.com/'
       }
     ]
