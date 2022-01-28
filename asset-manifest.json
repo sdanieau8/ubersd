@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/ubersd/static/css/main.dc560be3.chunk.css",
-    "main.js": "/ubersd/static/js/main.f49fc856.chunk.js",
-    "main.js.map": "/ubersd/static/js/main.f49fc856.chunk.js.map",
+    "main.css": "/ubersd/static/css/main.d55e71c1.chunk.css",
+    "main.js": "/ubersd/static/js/main.bed34689.chunk.js",
+    "main.js.map": "/ubersd/static/js/main.bed34689.chunk.js.map",
     "runtime-main.js": "/ubersd/static/js/runtime-main.5b4c66af.js",
     "runtime-main.js.map": "/ubersd/static/js/runtime-main.5b4c66af.js.map",
-    "static/js/2.62287106.chunk.js": "/ubersd/static/js/2.62287106.chunk.js",
-    "static/js/2.62287106.chunk.js.map": "/ubersd/static/js/2.62287106.chunk.js.map",
+    "static/js/2.baba4544.chunk.js": "/ubersd/static/js/2.baba4544.chunk.js",
+    "static/js/2.baba4544.chunk.js.map": "/ubersd/static/js/2.baba4544.chunk.js.map",
     "index.html": "/ubersd/index.html",
-    "static/css/main.dc560be3.chunk.css.map": "/ubersd/static/css/main.dc560be3.chunk.css.map",
-    "static/js/2.62287106.chunk.js.LICENSE.txt": "/ubersd/static/js/2.62287106.chunk.js.LICENSE.txt",
+    "static/css/main.d55e71c1.chunk.css.map": "/ubersd/static/css/main.d55e71c1.chunk.css.map",
+    "static/js/2.baba4544.chunk.js.LICENSE.txt": "/ubersd/static/js/2.baba4544.chunk.js.LICENSE.txt",
+    "static/media/back.a953475e.svg": "/ubersd/static/media/back.a953475e.svg",
     "static/media/home.fccc0963.svg": "/ubersd/static/media/home.fccc0963.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.5b4c66af.js",
-    "static/js/2.62287106.chunk.js",
-    "static/css/main.dc560be3.chunk.css",
-    "static/js/main.f49fc856.chunk.js"
+    "static/js/2.baba4544.chunk.js",
+    "static/css/main.d55e71c1.chunk.css",
+    "static/js/main.bed34689.chunk.js"
   ]
 }
