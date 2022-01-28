@@ -1,5 +1,5 @@
 import React from "react";
-import Homebutton from "../../../components/homebutton/homebutton.component";
+import BackButton from "../../../components/backbutton/backbutton.component";
 import InfoCard from "../../../components/info-card/info-card.components";
 import ATTRACTION_DATA from "../../../components/directory/data/attractions.data";
 
@@ -20,7 +20,7 @@ class AttractionParks extends React.Component {
       <div className='photo' style= {{backgroundImage: `url("https://i.ibb.co/VM35ZZp/attractionpark.jpg")`}}>
       <h1 className='pagename'> ATTRACTION PARKS </h1>
       </div>
-      <Homebutton />
+      <BackButton />
       <h2 className='beachinfo'>
       Looking for a full day filled with exotic animals?
       Check out one of San Diego's famous attraction parks

@@ -5,27 +5,6 @@ const LANDMARKS_DATA = [
     items: [
       {
         id: 51,
-        name: 'Cabrillo National Monument',
-        price: '$20 per vehicle',
-        type: 'Lighthouse, Monument, Tidepools',
-        address: '1800 Cabrillo Memorial Dr',
-        mapLink: 'http://maps.apple.com/?address=1800,Cabrillo+Memorial+Dr,San+Diego,California',
-        linkUrl: 'https://www.nps.gov/cabr/index.htm',
-        imageUrl: 'https://i.ibb.co/pwZxywX/landmarks.jpg'
-        
-      },
-      {
-        id: 52,
-        name: 'Spruce Street Suspension Bridge',
-        price: 'Free',
-        type: 'Photo Spot, Swaying Bridge',
-        address: 'W Spruce St',
-        mapLink: 'http://maps.apple.com/?q=Spruce+Street+Suspension+Bridge',
-        linkUrl: 'https://www.yelp.com/biz/spruce-street-suspension-bridge-san-diego?osq=landmarks',
-        imageUrl: 'https://i.ibb.co/pwZxywX/landmarks.jpg'
-      },
-      {
-        id: 53,
         name: 'Mt. Soledad Cross',
         price: 'Free',
         type: 'Scenic Viewpoint',
@@ -35,7 +14,7 @@ const LANDMARKS_DATA = [
         imageUrl: 'https://i.ibb.co/MpY1fn2/soledad.jpg'
       },
       {
-        id: 54,
+        id: 52,
         name: 'Unconditional Surrender Statue',
         price: 'Free',
         type: 'WWII Memorial',
@@ -43,6 +22,26 @@ const LANDMARKS_DATA = [
         mapLink: 'http://maps.apple.com/?address=55,Tuna+Ln,San+Diego,California',
         linkUrl: 'https://www.yelp.com/biz/unconditional-surrender-statue-embracing-peace-san-diego?osq=landmarks',
         imageUrl: 'https://i.ibb.co/k16xqsR/surrender.jpg'
+      },
+      {
+        id: 53,
+        name: 'Cabrillo National Monument',
+        price: '$20 per vehicle',
+        type: 'Lighthouse, Monument, Tidepools',
+        address: '1800 Cabrillo Memorial Dr',
+        mapLink: 'http://maps.apple.com/?address=1800,Cabrillo+Memorial+Dr,San+Diego,California',
+        linkUrl: 'https://www.nps.gov/cabr/index.htm',
+        imageUrl: 'https://i.ibb.co/pwZxywX/landmarks.jpg'
+      },
+      {
+        id: 54,
+        name: 'Coronado Bridge',
+        price: 'Free',
+        type: 'Only driving across is permitted',
+        address: 'CA-75 Coronado',
+        mapLink: 'http://maps.apple.com/?q=Coronado+Bridge',
+        linkUrl: 'https://www.yelp.com/biz/coronado-bridge-san-diego?osq=landmarks',
+        imageUrl: 'https://i.ibb.co/kxQHrgj/bridge.jpg'
       },
       {
         id: 55,
@@ -56,13 +55,12 @@ const LANDMARKS_DATA = [
       },
       {
         id: 56,
-        name: 'Coronado Bridge',
+        name: 'Spruce Street Suspension Bridge',
         price: 'Free',
-        type: 'Only driving across is permitted',
-        address: 'CA-75 Coronado',
-        mapLink: 'http://maps.apple.com/?q=Coronado+Bridge',
-        linkUrl: 'https://www.yelp.com/biz/coronado-bridge-san-diego?osq=landmarks',
-        imageUrl: 'https://i.ibb.co/kxQHrgj/bridge.jpg'
+        type: 'Photo Spot, Swaying Bridge',
+        address: 'W Spruce St',
+        mapLink: 'http://maps.apple.com/?q=Spruce+Street+Suspension+Bridge',
+        linkUrl: 'https://www.yelp.com/biz/spruce-street-suspension-bridge-san-diego?osq=landmarks'
       }
     ]
   }

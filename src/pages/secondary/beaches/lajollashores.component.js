@@ -1,5 +1,5 @@
 import React from "react";
-import Homebutton from "../../../components/homebutton/homebutton.component";
+import BackButton from "../../../components/backbutton/backbutton.component";
 import InfoCard from "../../../components/info-card/info-card.components";
 import LAJOLLASHORES_DATA from "../../../components/directory/data/lajollashores.data";
 
@@ -20,7 +20,7 @@ class LajollaShores extends React.Component {
       <div className='photo' style= {{backgroundImage: `url("https://i.ibb.co/ctR6rYH/lajollashores.jpg")`}}>
       <h1 className='pagename'> LA JOLLA SHORES</h1>
       </div>
-      <Homebutton />
+      <BackButton />
       <h2 className='beachinfo'>
       La Jolla Shores is the perfect spot for a family beach day either on the grass or sand.
       A good place to learn surfing or body boarding.

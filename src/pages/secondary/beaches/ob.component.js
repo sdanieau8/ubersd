@@ -1,5 +1,5 @@
 import React from "react";
-import Homebutton from "../../../components/homebutton/homebutton.component";
+import BackButton from "../../../components/backbutton/backbutton.component";
 import InfoCard from "../../../components/info-card/info-card.components";
 import OCEANBEACH_DATA from "../../../components/directory/data/oceanbeach.data";
 
@@ -20,7 +20,7 @@ class OceanBeach extends React.Component {
       <div className='photo' style= {{backgroundImage: `url("https://i.ibb.co/jhd3wgt/ob.jpg")`}}>
       <h1 className='pagename'> OCEAN BEACH</h1>
       </div>
-      <Homebutton />
+      <BackButton />
       <h2 className='beachinfo'>
       Ocean Beach offers an old school beach vibe with eclectic boutiques all around.
       There are sandy beaches as well as small cliff areas for picnics.

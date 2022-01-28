@@ -6,7 +6,7 @@ import './homepage.styles.scss';
 
 const HomePage = () => (
   <div className='homepage'>
-    <h1> SAN DIEGO </h1>
+    <h1 className='h1'> SAN DIEGO </h1>
     <DirectoryHome />
   </div>
 );

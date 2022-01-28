@@ -1,5 +1,5 @@
 import React from "react";
-import Homebutton from "../../../components/homebutton/homebutton.component";
+import BackButton from "../../../components/backbutton/backbutton.component";
 import InfoCard from "../../../components/info-card/info-card.components";
 import SPORTS_DATA from "../../../components/directory/data/sports.data";
 
@@ -20,7 +20,7 @@ class Sports extends React.Component {
       <div className='photo' style= {{backgroundImage: `url("https://i.ibb.co/4W4LMnk/sports.jpg")`}}>
       <h1 className='pagename'> SPORTS </h1>
       </div>
-      <Homebutton />
+      <BackButton />
       <h2 className='beachinfo'>
       San Diego is home to four professional teams and hosts many college sports!
       </h2>

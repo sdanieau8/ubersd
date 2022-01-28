@@ -1,5 +1,5 @@
 import React from "react";
-import Homebutton from "../../../components/homebutton/homebutton.component";
+import BackButton from "../../../components/backbutton/backbutton.component";
 import InfoCard from "../../../components/info-card/info-card.components";
 import ART_DATA from "../../../components/directory/data/artculture.data";
 
@@ -20,7 +20,7 @@ class ArtCulture extends React.Component {
       <div className='photo' style= {{backgroundImage: `url("https://i.ibb.co/LRrmHMx/artculture.jpg")`}}>
       <h1 className='pagename'> ART &amp; CULTURE </h1>
       </div>
-      <Homebutton />
+      <BackButton />
       <h2 className='beachinfo'>
       Art and Culture can be found all throughout the city. The places listed below
       are dedicated to preserving and showcasing the art.

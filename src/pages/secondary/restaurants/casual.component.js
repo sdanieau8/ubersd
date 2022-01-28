@@ -1,5 +1,5 @@
 import React from "react";
-import Homebutton from "../../../components/homebutton/homebutton.component";
+import BackButton from "../../../components/backbutton/backbutton.component";
 import InfoCard from "../../../components/info-card/info-card.components";
 import CASUAL_DATA from "../../../components/directory/data/casual.data";
 
@@ -20,7 +20,7 @@ class Casual extends React.Component {
       <div className='photo' style= {{backgroundImage: `url("https://i.ibb.co/0sP0Cjk/casual.jpg")`}}>
       <h1 className='pagename'> CASUAL </h1>
       </div>
-      <Homebutton />
+      <BackButton />
       <h2 className='beachinfo'>
       Below is a list of restaurants, requiring casual attire, categorized by neighborhood.
       </h2>

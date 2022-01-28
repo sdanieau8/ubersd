@@ -8,6 +8,7 @@ const ONTHEWATER_DATA = [
         name: 'Eddie V\'s Prime Seafood',
         type: 'Seafood, Steakhouse',
         address: '789 W Harbor Dr',
+        mapLink: 'http://maps.apple.com/?address=789,W+Harbor+Dr,San+Diego,California',
         linkUrl: 'https://www.eddiev.com/locations/ca/san-diego/san-diego/8514?cmpid=br:ev_ag:ie_ch:dry_ca:EVYELP_sn:yelp_gt:san-diego-ca-8514_pl:locurl_rd:1013'
       },
       {
@@ -15,6 +16,7 @@ const ONTHEWATER_DATA = [
         name: 'Brigantine',
         type: 'Seafood & Oyster Bar',
         address: '1360 N Harbor Dr',
+        mapLink: 'http://maps.apple.com/?address=1360,N+Harbor+Dr,San+Diego,California',
         linkUrl: 'http://www.brigantine.com/'
       },
       {
@@ -22,6 +24,7 @@ const ONTHEWATER_DATA = [
         name: 'The Fish Market',
         type: 'Seafood',
         address: '750 N Harbor Dr',
+        mapLink: 'http://maps.apple.com/?address=750,N+Harbor+Dr,San+Diego,California',
         linkUrl: 'https://www.thefishmarket.com/location/san-diego/'
       },
       {
@@ -29,6 +32,7 @@ const ONTHEWATER_DATA = [
         name: 'Ketch Grill & Taps',
         type: 'Seafood, Brunch, Beer Bar',
         address: '1360 N Harbor Dr',
+        mapLink: 'http://maps.apple.com/?address=1360,N+Harbor+Dr,San+Diego,California',
         linkUrl: 'https://ketchgrillandtaps.com/'
       },
       {
@@ -36,6 +40,7 @@ const ONTHEWATER_DATA = [
         name: 'Miguel\'s Cocina',
         type: 'Mexican',
         address: '1360 N Harbor Dr',
+        mapLink: 'http://maps.apple.com/?address=1360,N+Harbor+Dr,San+Diego,California',
         linkUrl: 'http://www.miguels-cocina.com/'
       }
     ]

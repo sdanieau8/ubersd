@@ -1,5 +1,5 @@
 import React from "react";
-import Homebutton from "../../../components/homebutton/homebutton.component";
+import BackButton from "../../../components/backbutton/backbutton.component";
 import InfoCard from "../../../components/info-card/info-card.components";
 import SUNSETCLIFFS_DATA from "../../../components/directory/data/sunsetcliffs.data";
 
@@ -20,7 +20,7 @@ class SunsetCliffs extends React.Component {
       <div className='photo' style= {{backgroundImage: `url("https://i.ibb.co/5k6cmrz/sunset-cliffs.jpg")`}}>
       <h1 className='pagename'> SUNSET CLIFFS</h1>
       </div>
-      <Homebutton />
+      <BackButton />
       <h2 className='beachinfo'>
       Sunset Cliffs is the best spot for sunsets. Not recommended for small children, the area is fun to explore with good footwear.  
       </h2>

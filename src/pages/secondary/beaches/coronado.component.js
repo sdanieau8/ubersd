@@ -1,5 +1,5 @@
 import React from "react";
-import Homebutton from "../../../components/homebutton/homebutton.component";
+import BackButton from "../../../components/backbutton/backbutton.component";
 import InfoCard from "../../../components/info-card/info-card.components";
 import CORONADO_DATA from "../../../components/directory/data/coronado.data";
 
@@ -20,7 +20,7 @@ class Coronado extends React.Component {
       <div className='photo' style= {{backgroundImage: `url("https://i.ibb.co/M22XLqv/coronado2.jpg")`}}>
       <h1 className='pagename'> CORONADO</h1>
       </div>
-      <Homebutton />
+      <BackButton />
       <h2 className='beachinfo'>
       Coronado is home to the Hotel Del, beautiful sandy beaches, and iconic views of the downtown skyline. 
       </h2>

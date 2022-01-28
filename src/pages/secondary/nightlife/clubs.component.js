@@ -1,5 +1,5 @@
 import React from "react";
-import Homebutton from "../../../components/homebutton/homebutton.component";
+import BackButton from "../../../components/backbutton/backbutton.component";
 import InfoCard from "../../../components/info-card/info-card.components";
 import CLUBS_DATA from "../../../components/directory/data/clubs.data";
 
@@ -20,7 +20,7 @@ class Clubs extends React.Component {
       <div className='photo' style= {{backgroundImage: `url("https://i.ibb.co/HnrbbFF/clubs.jpg")`}}>
       <h1 className='pagename'> CLUBS </h1>
       </div>
-      <Homebutton />
+      <BackButton />
       <h2 className='beachinfo'>
       A majority of San Diego's larger venues are located downtown
       in the Gaslamp district. 

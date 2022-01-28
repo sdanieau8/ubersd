@@ -1,5 +1,5 @@
 import React from "react";
-import Homebutton from "../../../components/homebutton/homebutton.component";
+import BackButton from "../../../components/backbutton/backbutton.component";
 import InfoCard from "../../../components/info-card/info-card.components";
 import PB_DATA from "../../../components/directory/data/pacificbeach.data";
 
@@ -20,7 +20,7 @@ class PacificBeach extends React.Component {
       <div className='photo' style= {{backgroundImage: `url("https://i.ibb.co/BKXr75h/pb.jpg")`}}>
       <h1 className='pagename'> PACIFIC BEACH</h1>
       </div>
-      <Homebutton />
+      <BackButton />
       <h2 className='beachinfo'>
       Pacific Beach has boardwalk access, surf lessons, sand castles, bike rentals and more! 
       Restaurants and bars are within walking distance of the beach. 

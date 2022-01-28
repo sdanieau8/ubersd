@@ -1,5 +1,5 @@
 import React from "react";
-import Homebutton from "../../../components/homebutton/homebutton.component";
+import BackButton from "../../../components/backbutton/backbutton.component";
 import InfoCard from "../../../components/info-card/info-card.components";
 import LOCALFAVORITES_DATA from "../../../components/directory/data/localfavorites.data";
 
@@ -20,7 +20,7 @@ class LocalFavorites extends React.Component {
       <div className='photo' style= {{backgroundImage: `url("https://i.ibb.co/BtVzzMq/localfavorites.jpg")`}}>
       <h1 className='pagename'> LOCAL FAVORITES </h1>
       </div>
-      <Homebutton />
+      <BackButton />
       <h2 className='beachinfo'>
       Come enjoy with the locals and try some of our favorite restaurants!
       </h2>

@@ -1,5 +1,5 @@
 import React from "react";
-import Homebutton from "../../../components/homebutton/homebutton.component";
+import BackButton from "../../../components/backbutton/backbutton.component";
 import InfoCard from "../../../components/info-card/info-card.components";
 import PARKS_DATA from "../../../components/directory/data/parks.data";
 
@@ -20,7 +20,7 @@ class Parks extends React.Component {
       <div className='photo' style= {{backgroundImage: `url("https://i.ibb.co/KN77B7y/parks.jpg")`}}>
       <h1 className='pagename'> PARKS </h1>
       </div>
-      <Homebutton />
+      <BackButton />
       <h2 className='beachinfo'>
       There are many beautiful parks all around the city. Below is a list of our favorite spots!
       </h2>

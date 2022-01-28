@@ -1,5 +1,5 @@
 import React from "react";
-import Homebutton from "../../../components/homebutton/homebutton.component";
+import BackButton from "../../../components/backbutton/backbutton.component";
 import InfoCard from "../../../components/info-card/info-card.components";
 import ONTHEWATER_DATA from "../../../components/directory/data/onthewater.data";
 
@@ -20,7 +20,7 @@ class OnWater extends React.Component {
       <div className='photo' style= {{backgroundImage: `url("https://i.ibb.co/hm1yxcp/onthewater.jpg")`}}>
       <h1 className='pagename'> ON THE WATER </h1>
       </div>
-      <Homebutton />
+      <BackButton />
       <h2 className='beachinfo'>
       San Diego has some beautiful views for water front dining downtown. Checkout the locations below! 
       </h2>

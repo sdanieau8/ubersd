@@ -1,5 +1,5 @@
 import React from "react";
-import Homebutton from "../../../components/homebutton/homebutton.component";
+import BackButton from "../../../components/backbutton/backbutton.component";
 import InfoCard from "../../../components/info-card/info-card.components";
 import MUSEUMS_DATA from "../../../components/directory/data/museums.data";
 
@@ -20,7 +20,7 @@ class Museums extends React.Component {
       <div className='photo' style= {{backgroundImage: `url("https://i.ibb.co/64QKJBg/museum.jpg")`}}>
       <h1 className='pagename'> MUSEUMS </h1>
       </div>
-      <Homebutton />
+      <BackButton />
       <h2 className='beachinfo'>
      Many of the city's museums are located in Balboa Park, so it is convenient to visit
      multiple museums in one day!

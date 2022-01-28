@@ -1,5 +1,5 @@
 import React from "react";
-import Homebutton from "../../../components/homebutton/homebutton.component";
+import BackButton from "../../../components/backbutton/backbutton.component";
 import InfoCard from "../../../components/info-card/info-card.components";
 import MB_DATA from "../../../components/directory/data/missionbeach.data";
 
@@ -20,7 +20,7 @@ class MissionBeach extends React.Component {
       <div className='photo' style= {{backgroundImage: `url("https://i.ibb.co/JC2tp62/mb.jpg")`}}>
       <h1 className='pagename'> MISSION BEACH</h1>
       </div>
-      <Homebutton />
+      <BackButton />
       <h2 className='beachinfo'>
       Mission Beach is great for walking the boardwalk, lounging on the beach,
       bike rentals, surf lessons 

@@ -1,5 +1,5 @@
 import React from "react";
-import Homebutton from "../../../components/homebutton/homebutton.component";
+import BackButton from "../../../components/backbutton/backbutton.component";
 import InfoCard from "../../../components/info-card/info-card.components";
 import FORMAL_DATA from "../../../components/directory/data/formal.data";
 
@@ -20,7 +20,7 @@ class Formal extends React.Component {
       <div className='photo' style= {{backgroundImage: `url("https://i.ibb.co/NxYD8Ws/formal.jpg")`}}>
       <h1 className='pagename'> FORMAL </h1>
       </div>
-      <Homebutton />
+      <BackButton />
       <h2 className='beachinfo'>
       Below is a list of restaurants, requiring formal attire, categorized by neighborhood.
       </h2>
