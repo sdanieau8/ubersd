@@ -1,13 +1,13 @@
 import React from 'react';
 
 import DirectoryHistoric from '../../components/directory/directory.historic';
-import Homebutton from '../../components/homebutton/homebutton.component';
+import BackButton from '../../components/backbutton/backbutton.component'
 
 import './beaches.styles.scss';
 
 const HistoricPage = () => (
   <div className='beachespage'>
-    <Homebutton /> 
+    <BackButton /> 
     <h1 className='pagename'> HISTORIC</h1> 
     <DirectoryHistoric />
   </div>

@@ -1,13 +1,13 @@
 import React from 'react';
 
 import DirectoryRestaurants from '../../components/directory/directory.restaurants';
-import Homebutton from '../../components/homebutton/homebutton.component';
+import BackButton from '../../components/backbutton/backbutton.component'
 
 import './restaurants.styles.scss';
 
 const RestaurantsPage = () => (
   <div className='beachespage'>
-    <Homebutton /> 
+    <BackButton /> 
     <h1 className='pagename'> RESTAURANTS</h1> 
     <DirectoryRestaurants />
   </div>

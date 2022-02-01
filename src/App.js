@@ -41,6 +41,8 @@ import OnWater from './pages/secondary/restaurants/onthewater.component';
 // Breweries
 import CraftBreweries from './pages/secondary/breweries/craftbreweries.component';
 import LargeBreweries from './pages/secondary/breweries/largebreweries.component';
+// Hikes
+import Hikes from './pages/main/hikes.component';
 
 function App() {
   return (
@@ -76,7 +78,7 @@ function App() {
         <Route path='/breweries' element={<BreweriesPage /> } />
           <Route path='breweries/craftbreweries' element={<CraftBreweries />} />
           <Route path='breweries/largebreweries' element={<LargeBreweries />} />
-
+        <Route path='/hikes' element={<Hikes /> } />
       </Routes>
     </div>
   );
