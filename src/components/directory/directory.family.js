@@ -27,6 +27,12 @@ class DirectoryFamily extends React.Component {
           imageUrl: 'https://i.ibb.co/4W4LMnk/sports.jpg',
           id: 12,
           linkUrl: 'sports'
+        },
+        {
+          title: 'Activities',
+          imageUrl: 'https://i.ibb.co/8xgZv15/activities.jpg',
+          id: 12,
+          linkUrl: 'activities'
         }
       ]
     };

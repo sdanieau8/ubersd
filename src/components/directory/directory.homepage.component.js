@@ -47,10 +47,22 @@ class DirectoryHome extends React.Component {
           linkUrl: 'breweries'
         },
         {
+          title: 'DESSERTS',
+          imageUrl: 'https://i.ibb.co/m9fZH2C/desserts.jpg',
+          id: 7,
+          linkUrl: 'desserts'
+        },
+        {
           title: 'HIKES',
           imageUrl: 'https://i.ibb.co/HzMTLBm/hikes.jpg',
-          id: 6,
+          id: 8,
           linkUrl: 'hikes'
+        },
+        {
+          title: 'SHOPPING',
+          imageUrl: 'https://i.ibb.co/nRqqyff/shopping.jpg',
+          id: 9,
+          linkUrl: 'shopping'
         }
       ]
     };

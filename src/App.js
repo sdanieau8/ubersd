@@ -33,6 +33,7 @@ import Events from './pages/secondary/nightlife/events.component';
 import AttractionParks from './pages/secondary/family/attractions.component';
 import Educational from './pages/secondary/family/educational.component';
 import Sports from './pages/secondary/family/sports.component';
+import Activities from './pages/secondary/family/activities.component';
 // Restaurants
 import LocalFavorites from './pages/secondary/restaurants/localfavorites.component';
 import Casual from './pages/secondary/restaurants/casual.component';
@@ -41,8 +42,12 @@ import OnWater from './pages/secondary/restaurants/onthewater.component';
 // Breweries
 import CraftBreweries from './pages/secondary/breweries/craftbreweries.component';
 import LargeBreweries from './pages/secondary/breweries/largebreweries.component';
+//Desserts
+import Desserts from './pages/main/desserts.component';
 // Hikes
 import Hikes from './pages/main/hikes.component';
+//Shopping
+import Shopping from './pages/main/shopping.component';
 
 function App() {
   return (
@@ -70,6 +75,7 @@ function App() {
           <Route path='family/attractionparks' element={<AttractionParks />} />
           <Route path='family/educational' element={<Educational />} />
           <Route path='family/sports' element={<Sports />} />
+          <Route path='family/activities' element={<Activities />} />
         <Route path='/restaurants' element={<RestaurantsPage /> } />
           <Route path='restaurants/localfavorites' element={<LocalFavorites />} />
           <Route path='restaurants/casual' element={<Casual />} />
@@ -78,7 +84,9 @@ function App() {
         <Route path='/breweries' element={<BreweriesPage /> } />
           <Route path='breweries/craftbreweries' element={<CraftBreweries />} />
           <Route path='breweries/largebreweries' element={<LargeBreweries />} />
+        <Route path='/desserts' element={<Desserts /> } />
         <Route path='/hikes' element={<Hikes /> } />
+        <Route path='/shopping' element={<Shopping /> } />
       </Routes>
     </div>
   );

@@ -55,12 +55,23 @@ const LANDMARKS_DATA = [
       },
       {
         id: 56,
-        name: 'Spruce Street Suspension Bridge',
+        name: 'Liberty Station',
         price: 'Free',
-        type: 'Photo Spot, Swaying Bridge',
-        address: 'W Spruce St',
-        mapLink: 'http://maps.apple.com/?q=Spruce+Street+Suspension+Bridge',
-        linkUrl: 'https://www.yelp.com/biz/spruce-street-suspension-bridge-san-diego?osq=landmarks'
+        type: 'Shops, Food, Beer',
+        address: '2820 Historic Decatur Rd',
+        mapLink: 'http://maps.apple.com/?q=Liberty+Public+Market',
+        linkUrl: 'https://libertystation.com/',
+        imageUrl: 'https://i.ibb.co/nkc63tw/libertystation.jpg'
+      },
+      {
+        id: 57,
+        name: 'Mt. Helix Park',
+        price: 'Free',
+        type: 'Scenic Viewpoint',
+        address: '4901 Mount Helix Dr',
+        mapLink: 'http://maps.apple.com/?q=Mt+Helix+Park',
+        linkUrl: 'https://www.mthelixpark.org/',
+        imageUrl: 'https://i.ibb.co/6np1B8y/mthelix.jpg'
       }
     ]
   }

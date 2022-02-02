@@ -58,6 +58,14 @@ const PARKS_DATA = [
         address: '413 First St',
         mapLink: 'http://maps.apple.com/?address=413,First+St,San+Diego,California',
         linkUrl: 'https://www.yelp.com/biz/bay-view-park-coronado?osq=parks'
+      },
+      {
+        id: 58,
+        name: 'Presidio Park',
+        type: 'Museum & Historic Park',
+        address: '2811 Jackson St',
+        mapLink: 'http://maps.apple.com/?address=2811,Jackson+St,San+Diego,California',
+        linkUrl: 'https://www.oldtownmarketsandiego.com/san-diego-blog/presidio-park'
       }
     ]
   }
