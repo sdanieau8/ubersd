@@ -14,8 +14,9 @@
     "react-scripts": "^4.0.3",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "http://ultimatesdguide.com",
   
+  "homepage": "http//:ultimatesdguide.com",
+
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
