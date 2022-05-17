@@ -3,7 +3,7 @@ import './weather.styles.scss';
 
 const Weather = () => {
   const { data, isLoading, errorMessage } = useOpenWeather({
-    key: '***REMOVED***',
+    key: '',
     lat: '32.775729', 
     lon: '-117.19389',
     lang: 'en',
