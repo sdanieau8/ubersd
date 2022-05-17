@@ -1,0 +1,62 @@
+.card-expanded {
+  display: flex;
+  width: 100%;
+  margin: 10px 10px;
+  flex-direction: column;
+
+    .title-bar {
+      display: flex;
+      align-items: center;
+      margin: 0px 20px 0px 10px;
+      justify-content: space-between;
+    
+      .name{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Nunito, sans-serif;
+        display: inline-block;
+        width: 250px
+        
+      }
+      .price{
+        font-size: 16px; 
+        display: inline-block;
+        width: 300px; 
+        text-align: center;
+        color: green;   
+               
+      }
+      .address {
+        font-size: 14px;  
+        display: inline-block;
+        width: 300px;
+        text-align: right;
+      }
+    }
+
+    .info-bar {
+      display: flex;
+      .location-photo {
+        width: 30%;
+        height: 100px;
+        background-size: cover;
+        background-position: center;
+        margin-left: 10px; 
+        display: inline-block; 
+      }
+      .location-description {
+        font-size: 100%;
+        font-family: Nunito, sans-serif;
+        font-weight: bold;
+        width: 70%;
+        display: inline-block;
+        padding-left: 10px;
+        margin-right: 20px;
+  
+        .url-link {
+          font-size: 14px;
+          display: flex;
+        }
+      }
+    }
+}

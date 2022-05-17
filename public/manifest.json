@@ -1,6 +1,6 @@
 {
-  "short_name": "SD Guide",
-  "name": "Ultimate San Diego Guide",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
