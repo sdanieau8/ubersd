@@ -27,20 +27,19 @@ class Homepage extends React.Component {
         </div>
         {/* Navigation */}
         <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+         {/* Card Preview */}
+         <div className="categorycard-container">
+          <CategoryCard />
+        </div>
+        {/* Google Maps Insert */}
+        <div className="map">
+          <GoogleMaps />
+        </div>
         {/* Page Description */}
         <div className="page-description">
           <h1 className="h1">The Ultimate SD Guide</h1>
           <p className="p">Information for specific neighborhoods
             as well as general points of interest in America's Finest City!</p>
-        </div>
-
-        {/* Google Maps Insert */}
-        <div className="map">
-          <GoogleMaps />
-        </div>
-        {/* Card Preview */}
-        <div className="categorycard-container">
-          <CategoryCard />
         </div>
         {/* Card Details */}
         <div className="categorycard-expanded">
