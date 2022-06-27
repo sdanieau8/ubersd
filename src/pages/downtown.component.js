@@ -3,7 +3,6 @@ import Sidebar from "../components/sidebar.component";
 import GoogleMaps from "../components/map.component";
 import './secondary.styles.scss';
 import Weather from "../components/weather.component";
-import GoogleAds from "../components/GoogleAds";
 
 
 const Downtown = () => (
@@ -25,10 +24,6 @@ const Downtown = () => (
     {/* Google Maps Insert */}
     <div className="map">
       <GoogleMaps />
-    </div>
-
-    <div className="ad-class">
-      <GoogleAds slot="4993838976" />
     </div>
 
     {/* Neighborhood Details */}

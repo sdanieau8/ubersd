@@ -3,7 +3,6 @@ import Sidebar from "../components/sidebar.component";
 import GoogleMaps from "../components/map.component";
 import CategoryCard from "../components/category-component";
 import CardTitle from "../components/card-title.component";
-import GoogleAds from "../components/GoogleAds";
 import LOCATIONS_DATA from "../components/locations.data";
 
 import './homepage.styles.scss';
@@ -34,9 +33,6 @@ class Homepage extends React.Component {
         {/* Google Maps Insert */}
         <div className="map">
           <GoogleMaps />
-        </div>
-        <div className="ad-class">
-          <GoogleAds slot="8716858927" />
         </div>
         {/* Page Description */}
         <div className="page-description">

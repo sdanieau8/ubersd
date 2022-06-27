@@ -3,7 +3,6 @@ import Sidebar from "../components/sidebar.component";
 import GoogleMaps from "../components/map.component";
 import './secondary.styles.scss';
 import Weather from "../components/weather.component";
-import GoogleAds from "../components/GoogleAds";
 
 
 const Coronado = () => (
@@ -24,10 +23,6 @@ const Coronado = () => (
     {/* Google Maps Insert */}
     <div className="map">
       <GoogleMaps />
-    </div>
-    
-    <div className="ad-class">
-      <GoogleAds slot="6874715094" />
     </div>
 
     {/* Neighborhood Details */}
